@@ -37,3 +37,23 @@ header {
   padding-top:50px;
   font-size:100px;
 }
+.card1{
+  background-color: #f9e3e6;
+  box-shadow: none !important;
+  padding:5px; 
+  
+}
+.custom-card{
+  box-shadow: none !important;
+  border: 0.2px solid white;
+}
+.image{
+  border-radius:var(--rd, 1px);; 
+  box-shadow: var(--shd, 0 1px 2px rgba(0,0,0,.6));
+  border-radius: none;
+}
+.card3{
+  background-color: #F0F8FF;
+  border: 0.2px solid white;
+  
+}

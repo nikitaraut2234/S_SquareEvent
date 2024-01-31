@@ -57,7 +57,7 @@ function Footer() {
             </section>
             <div className="p-4" style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
                 <Row className='mt-3'>
-                    <Col md='3' lg='4' xl='3' className='mx-auto  '>
+                    <Col md='4' lg='6' xl='3' className='mx-auto  '>
                         <h6 className='fw-bold  '>
 
                             &copy;2024-2025 SSquare. All Rights Reserved
@@ -70,11 +70,11 @@ function Footer() {
 
                     </Col>
 
-                    <Col md='3' lg='2' xl='2' className='mx-auto'>
+                    <Col md='2' lg='2' xl='2' className='mx-auto'>
                         <h6 className='fw-bold'>Privacy Policy</h6>
                     </Col>
 
-                    <Col md='4' lg='3' xl='3' className='mx-auto mb-md-0  '>
+                    <Col md='4' lg='2' xl='3' className='mx-auto mb-md-0  '>
                         <h6 className='fw-bold'>Terms & Conditions</h6>
 
                     </Col>

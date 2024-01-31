@@ -4,7 +4,8 @@ import './Header.css';
 //import AppNavbar from './Navbar';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { Navbar, Nav } from 'react-bootstrap';
-import { Card } from 'react-bootstrap';
+import { Card, } from 'react-bootstrap';
+
 
 const Header = () => {
 
@@ -69,55 +70,93 @@ const Header = () => {
         </div>
       </header>
       <div>
-        <Container className='container'>
-          <Row className='mt-3'>
-            <Col md='3' lg='4' xl='3' className='mx-auto mb-4'>
-              <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img1.jpg" />
-                <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of the card's content.
-                  </Card.Text>
-                </Card.Body>
+        <Container className='mt-2'>
+          <p className='text-center text-muted'>Convenient packages & reliable pricing</p>
+          <h1 className='text-center '>Services we offer</h1>
+          <Row className='row-cols-1 row-cols-md-4'>
+
+            <Col lg={3} md={3}>
+              <Card className='w-70 card1'>
+                <Card.Img src='img3.png'
+                  alt='...'
+                  position='top' className='image' />
+                <br></br>
+                <Card.Title className='text-center'><h6>Wedding Decor</h6></Card.Title>
+                <Card.Text className='text-center'>
+                  From design consultation to flawless execution.
+                </Card.Text>
+
               </Card>
             </Col>
 
-            <Col md='2' lg='2' xl='2' className='mx-auto mb-4'>
-              <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img1.jpg" />
-                <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of the card's content.
-                  </Card.Text>
-                </Card.Body>
+            <Col lg={3} md={3}>
+              <Card className='  w-70 card1'>
+                <Card.Img src='https://mdbootstrap.com/img/new/standard/city/043.webp'
+                  alt='...'
+                  position='top' />
+                <br />
+                <Card.Title className='text-center'><h6>Wedding Photography</h6></Card.Title>
+                <Card.Text className='text-center'>
+                  Turn your wedding day into a timeless masterpiece.
+                </Card.Text>
+
               </Card>
             </Col>
 
-            <Col md='3' lg='2' xl='2' className='mx-auto mb-4'>
-              <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img1.jpg" />
-                <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of the card's content.
-                  </Card.Text>
-                </Card.Body>
+            <Col lg={3} md={3}>
+              <Card className='  w-70 card1'>
+                <Card.Img src='https://mdbootstrap.com/img/new/standard/city/043.webp'
+                  alt='...'
+                  position='top' />
+                <br />
+                <Card.Title className='text-center'> <h6>Venue Consultation</h6></Card.Title>
+                <Card.Text className='text-center text-muted'>
+                  Get expert help in finding the perfect venue for your wedding.
+                </Card.Text>
+
               </Card>
             </Col>
 
-            <Col md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
-              <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="img1.jpg" />
-                <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of the card's content.
-                  </Card.Text>
-                </Card.Body>
+            <Col lg={3} md={3}>
+              <Card className=' w-70 card1'>
+                <Card.Img src='https://mdbootstrap.com/img/new/standard/city/043.webp'
+                  alt='...'
+                  position='top' />
+                <br />
+                <Card.Title className='text-center'> <h6>SSquare Exclusive</h6></Card.Title>
+                <Card.Text className='text-center'>
+                  Our xclusiv offering for larger-than-life, luxury weddings
+                </Card.Text>
+
               </Card>
             </Col>
+          </Row>
+          <Row>
+            <Col className='text-center mt-4'>
+              <Button variant="denger" className='btn  btn-danger' type="submit">
+                Get Instant Quote
+              </Button>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div>
+        <Container className='mt-3'>
+          <h5 className='text-center text-muted'>Design Catalog</h5>
+          <h1 className='text-center'>Our digital catalog</h1>
+          <h5 className='text-center text-muted'>We offer over 10,000 professionally hand-picked wedding designs.</h5>
+          <Row>
+            <Card className="custom-card">
+              <Card.Img overlay src='https://mdbootstrap.com/img/new/slides/017.webp' alt='...' height={500} />
+            </Card>
+          </Row>
+        </Container>
+      </div>
+      <div>
+        <Container className='  mt-2'>
+          <Row>
+            <Card className="custom-card card3"> 
+            </Card>
           </Row>
         </Container>
       </div>
