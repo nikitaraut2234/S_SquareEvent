@@ -1,10 +1,12 @@
 // Header.js
 import React from 'react';
+import { FaBars } from 'react-icons/fa'; 
 import './Header.css';
 //import AppNavbar from './Navbar';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { Navbar, Nav } from 'react-bootstrap';
-import { Card, } from 'react-bootstrap';
+ 
+import { Card} from 'react-bootstrap';
 
 
 const Header = () => {
@@ -16,11 +18,17 @@ const Header = () => {
           {/* <AppNavbar /> */}
           <Navbar bg="white" variant="dark" className="navbar" expand="lg">
             <Container>
-              <Navbar.Brand href="#" className='text-dark'>Your Logo</Navbar.Brand>
-              <Navbar.Toggle aria-controls="basic-navbar-nav" />
+              <Navbar.Brand href="#" className='text-dark'>
+                <img
+                  src="./image/logo.png"
+                  alt="S_Square"
+                  style={{ height: '50px', width: '75px' }}
+                />
+              </Navbar.Brand>
+              <Navbar.Toggle aria-controls="basic-navbar-nav"className="toggle-button"><Button variant="primary"> <FaBars /> </Button></Navbar.Toggle>
               <Navbar.Collapse id="basic-navbar-nav justify-content-end">
 
-                <Nav className="mr-auto">
+                <Nav right className="float-end">
                   <Nav.Link className='text-dark' href="#home">
                     Home
                   </Nav.Link>
@@ -35,7 +43,7 @@ const Header = () => {
           <Container className="header-content">
             <Row>
               <Col md={6}>
-                <h1 className='text-center text mt-5'>Wedding  Made Easy</h1>
+                <h1 className='text-center text mt-4'>Wedding  Made Easy</h1>
 
               </Col>
               <Col md={6}>
@@ -74,10 +82,60 @@ const Header = () => {
           <p className='text-center text-muted'>Convenient packages & reliable pricing</p>
           <h1 className='text-center '>Services we offer</h1>
           <Row className='row-cols-1 row-cols-md-4'>
+            <Col>
+              <Card className='card-no-shadow' >
+                <Card.Img src='/image/img3.png'
+                  alt='...'
+                  position='top' className='image' />
+                <br></br>
+                <Card.Title className='text-center'><h6>Wedding Decor</h6></Card.Title>
+                <Card.Text className='text-center'>
+                  From design consultation to flawless execution.
+                </Card.Text>
+              </Card>
+            </Col>
+            <Col>
+              <Card className='card-no-shadow'> 
+              <Card.Img src='/image/img3.png'
+                  alt='...'
+                  position='top' className='image' />
+                <br></br>
+                <Card.Title className='text-center'><h6>Wedding Photography</h6></Card.Title>
+                <Card.Text className='text-center'>
+                  Turn your wedding day into a timeless masterpiece.
+                </Card.Text>
+              </Card> 
+            </Col>
+            <Col>
+              <Card className='card-no-shadow'>
+              <Card.Img src='/image/img3.png'
+                  alt='...'
+                  position='top' className='image' />
+                <br></br>
+                <Card.Title className='text-center'> <h6>Venue Consultation</h6></Card.Title>
+                <Card.Text className='text-center text-muted'>
+                  Get expert help in finding the perfect venue for your wedding.
+                </Card.Text>
+              </Card>
+            </Col>
+            <Col>
+              <Card className='card-no-shadow'>
+              <Card.Img src='/image/img3.png'
+                  alt='...'
+                  position='top' className='image' />
+                <br /> 
+                <Card.Title className='text-center'> <h6>SSquare Exclusive</h6></Card.Title>
+                <Card.Text className='text-center'>
+                  Our xclusiv offering for larger-than-life, luxury weddings
+                </Card.Text>
+              </Card>
+            </Col>
+          </Row>
+          {/* <Row className='row-cols-1 row-cols-md-4'>
 
             <Col lg={3} md={3}>
               <Card className='w-70 card1'>
-                <Card.Img src='img3.png'
+                <Card.Img src='/image/img3.png'
                   alt='...'
                   position='top' className='image' />
                 <br></br>
@@ -130,7 +188,7 @@ const Header = () => {
 
               </Card>
             </Col>
-          </Row>
+          </Row> */}
           <Row>
             <Col className='text-center mt-4'>
               <Button variant="denger" className='btn  btn-danger' type="submit">
@@ -147,7 +205,7 @@ const Header = () => {
           <h5 className='text-center text-muted'>We offer over 10,000 professionally hand-picked wedding designs.</h5>
           <Row>
             <Card className="custom-card">
-              <Card.Img overlay src='https://mdbootstrap.com/img/new/slides/017.webp' alt='...' height={500} />
+              <Card.Img overlay src='https://mdbootstrap.com/img/new/slides/017.webp' alt='...' height={500} className='p-3' />
             </Card>
           </Row>
         </Container>
@@ -155,7 +213,7 @@ const Header = () => {
       <div>
         <Container className='  mt-2'>
           <Row>
-            <Card className="custom-card card3"> 
+            <Card className="custom-card card3">
             </Card>
           </Row>
         </Container>
