@@ -10,7 +10,7 @@ function Footer() {
                 <Container className='text-center text-md-start mt-5'>
                     <Row className='mt-3'>
                         <Col md='3' lg='4' xl='3' className='mx-auto mb-4'>
-                            <h6 className='fw-bold mb-4 '>
+                            <h6 className='fw-bold mb-4'>
 
                                 Company name<br />
                                 
