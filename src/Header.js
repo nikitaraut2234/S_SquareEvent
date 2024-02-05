@@ -1,4 +1,5 @@
 // Header.js
+//import Service from './Service'
 import React from 'react';
 import { FaBars } from 'react-icons/fa';
 import './Header.css';
@@ -6,7 +7,7 @@ import './Header.css';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { Navbar, Nav } from 'react-bootstrap';
 
-import { Card } from 'react-bootstrap';
+import { Card, CardImgOverlay } from 'react-bootstrap';
 
 
 const Header = () => {
@@ -15,7 +16,7 @@ const Header = () => {
     <div>
       <header>
         <div>
-          {/* <AppNavbar /> */}
+          
           <Navbar bg="white" variant="dark" className="navbar" expand="lg">
             <Container>
               <Navbar.Brand href="#" className='text-dark'>
@@ -28,7 +29,7 @@ const Header = () => {
               <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle-button"><Button variant="primary"> <FaBars /> </Button></Navbar.Toggle>
               <Navbar.Collapse id="basic-navbar-nav justify-content-end">
 
-                <Nav right className="float-end">
+                <Nav className="float-end">
                   <Nav.Link className='text-dark' href="#home">
                     Home
                   </Nav.Link>
@@ -47,7 +48,7 @@ const Header = () => {
 
               </Col>
               <Col md={6}>
-                <Form className='p-3 card'>
+                <Form className='p-3 card' id="getbtn">
                   <h4>Speak To Our Expert</h4>
                   <p>Have all question answered and get a free competitive quote </p>
                   <Form.Group controlId="formBasicEmail">
@@ -135,7 +136,7 @@ const Header = () => {
           <Row>
             <Col className='text-center mt-4'>
               <Button variant="denger" className='btn  btn-danger' type="submit">
-                Get Instant Quote
+                <a href='#getbtn'>Get Instant Quote</a>
               </Button>
             </Col>
           </Row>
@@ -198,16 +199,16 @@ const Header = () => {
           <Row>
             <Col md={2}></Col>
             <Col md={4}>
-               
+
               <br />
               <br />
               <h4 className='text-warning'>Expert Help</h4>
               <h1 className='text-white display-5'>Budget & Venue Consultation</h1>
 
             </Col>
-             
+
             <Col md={4}>
-               
+
               <br />
               <br />
               <h5 className='text-warning text-center'>Get expert help in important decisions such as how much to spend and which venue to book.</h5>
@@ -219,13 +220,121 @@ const Header = () => {
           </Row>
           <Row>
             <Col md={12}>
-            <Card.Img overlay src='/image/image6.jpg' alt='...' height={700}  className='custom-card3' />
+              <Card.Img overlay src='/image/image6.jpg' alt='...' height={700} className='custom-card3' />
             </Col>
           </Row>
 
         </Container>
       </div>
+      <div>
+
+        <Container className='mt-2'>
+          <h4 className='text-center text-muted'>Wedding Designs</h4>
+          <h1 className='text-center'>Check out some of our</h1>
+          <br></br>
+          <h3 className='text-center'>best-selling designs </h3>
+          <br></br>
+          <br></br>
+          <Row >
+            <Col md={3} lg={3}>
+              <h3 className='text-center'>Mandap</h3>
+            </Col>
+            <Col md={3} lg={3}>
+              <h3 className='text-center'>Reception</h3>
+            </Col>
+            <Col md={3} lg={3}>
+              <h3 className='text-center'>Haldi & Mehendi</h3>
+            </Col>
+            <Col md={3} lg={3}>
+              <h3 className='text-center'>3D Design</h3>
+            </Col>
+          </Row>
+          <Row>
+            <Col md={12}>
+              <Card.Img overlay src='/image/image6.jpg' alt='...' height={700} className='custom-card3' />
+            </Col>
+          </Row>
+          <Row>
+            <Col className='text-center mt-4'>
+              <Button variant="denger" className='btn  btn-danger' type="submit" >
+                <a href='#getbtn'>Get Instant Quote</a>
+              </Button>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div>
+        <Container fluid className='custom-color2 mt-3'>
+          <h4 className='text-center text-muted p-3'>Testimonials</h4>
+          <h1 className='text-center'>Hear from our customers</h1>
+          <Row>
+            <Col>
+              <Card.Img overlay src='/image/image6.jpg' alt='...' height={700} className='custom-card3' />
+            </Col>
+          </Row>
+
+        </Container>
+      </div>
+      <div>
+        <Container className='mt-3'>
+          <Row className='p-3'>
+            <Col md={2}></Col>
+            <Col md={6}>
+              <h3 className='text-muted'>Meragi Weddings</h3>
+              <h2>Get a glimpse of some of our best work from the past</h2>
+            </Col>
+            <Col md={4} className='p-5'>
+              <Button variant="denger" className='btn  btn-danger' type="submit" >
+                <a href='#getbtn'>Get Instant Quote</a>
+              </Button>
+            </Col>
+          </Row>
+          <Row>
+
+            <Col md={3}>
+              <Card.Img overlay src='/image/image6.jpg' alt='...' height={325} className='custom-card3' />
+              
+            </Col>
+            <Col md={3}>
+              <Card.Img overlay src='/image/image6.jpg' alt='...' height={325} className='custom-card3' />
+            </Col>
+            <Col md={3}>
+              <Card.Img overlay src='/image/image6.jpg' alt='...' height={325} className='custom-card3' />
+            </Col>
+            <Col md={3}>
+              <Card.Img overlay src='/image/image6.jpg' alt='...' height={325} className='custom-card3' />
+            </Col>
+
+          </Row>
+
+        </Container>
+      </div>
+      <div>
+        <Container fluid className='custom-color mt-3'>
+          <h4 className='text-white text-center p-5'>Our Office</h4>
+          <h1 className='text-white  text-center'>Visit us here for a detailed in-person</h1>
+          <h1 className='text-white text-center'>discussion with one of our wedding experts!</h1>
+          <span><Button >Banglore</Button> <Button>Banglore</Button> <Button>Banglore</Button></span>
+           <Row>
+            <Col md={2}></Col>
+            <Col md={4}><Card.Img overlay src='/image/image6.jpg' alt='...' height={325} className='custom-card3' /></Col>
+            <Col md={4}><h1 className='text-white pt-3'>Address</h1></Col>
+            <Col md={2}></Col>
+           </Row>
+        </Container>
+
+      </div>
+      <div>
+        <Container fluid className='custom-color2'>
+          <h4 className='text-center text-muted p-3'>Frequently Asked Questions</h4>
+          <h1 className='text-center'>Some of the commonly asked questions</h1>
+           
+
+        </Container>
+      </div>  
+
     </div>
+
   );
 };
 

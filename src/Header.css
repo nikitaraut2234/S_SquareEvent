@@ -73,3 +73,14 @@ header {
 .custom-color{
   background-color:hsl(36, 100%, 17%);
 }
+.custom-color2{
+  background-color:hsl(36, 59%, 87%);
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+ 
+span{
+ justify-content: center;
+}

@@ -10,7 +10,7 @@ function App() {
       
       <div className="App scroll-container"> 
          <Header />
-        
+         
      {/* <AppNavbar /> */}
        
       <Footer />
