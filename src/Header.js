@@ -1,5 +1,7 @@
 // Header.js
 //import Service from './Service'
+import Accordion from 'react-bootstrap/Accordion';
+
 import React from 'react';
 import { FaBars } from 'react-icons/fa';
 import './Header.css';
@@ -16,7 +18,7 @@ const Header = () => {
     <div>
       <header>
         <div>
-          
+
           <Navbar bg="white" variant="dark" className="navbar" expand="lg">
             <Container>
               <Navbar.Brand href="#" className='text-dark'>
@@ -251,7 +253,32 @@ const Header = () => {
           </Row>
           <Row>
             <Col md={12}>
-              <Card.Img overlay src='/image/image6.jpg' alt='...' height={700} className='custom-card3' />
+              <Card className='card-no-shadow'>
+                 <Row>
+                 <Col md={8}>
+                  <Row>
+                    <Col md={4}  ><Card.Img overlay src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
+                    <Col md={4}   ><Card.Img overlay src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
+                    <Col md={4}  > <Card.Img overlay src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
+                  </Row> <br></br>
+                  <Row className=''>
+                  <Col md={12} ><Card.Img overlay src='/image/image6.jpg' alt='...' height={400} className='custom-card4'/></Col>
+                  </Row>
+                   
+                 </Col>
+                <Col md={4}>  
+                <Row>
+                  <Col md={12}  ><Card.Img overlay src='/image/image6.jpg' alt='...' height={300} className='custom-card4' /></Col>
+                </Row>
+                <br></br>
+                <Row>
+                <Col md={12}  ><Card.Img overlay src='/image/image6.jpg' alt='...' height={250} className='custom-card4' /> </Col>
+                </Row>
+                
+                </Col>
+                 </Row>
+              </Card>
+
             </Col>
           </Row>
           <Row>
@@ -293,7 +320,7 @@ const Header = () => {
 
             <Col md={3}>
               <Card.Img overlay src='/image/image6.jpg' alt='...' height={325} className='custom-card3' />
-              
+
             </Col>
             <Col md={3}>
               <Card.Img overlay src='/image/image6.jpg' alt='...' height={325} className='custom-card3' />
@@ -314,13 +341,17 @@ const Header = () => {
           <h4 className='text-white text-center p-5'>Our Office</h4>
           <h1 className='text-white  text-center'>Visit us here for a detailed in-person</h1>
           <h1 className='text-white text-center'>discussion with one of our wedding experts!</h1>
-          <span><Button >Banglore</Button> <Button>Banglore</Button> <Button>Banglore</Button></span>
-           <Row>
+          <Row>
+            <Col md={2}></Col>
+            <Col md={8} className='p-4'> <Button className='btn btn-primary'>Banglore</Button> <Button className='btn btn-primary'>Banglore</Button> <Button className='btn btn-primary'>Banglore</Button></Col>
+            <Col md={2}></Col>
+          </Row>
+          <Row>
             <Col md={2}></Col>
             <Col md={4}><Card.Img overlay src='/image/image6.jpg' alt='...' height={325} className='custom-card3' /></Col>
-            <Col md={4}><h1 className='text-white pt-3'>Address</h1></Col>
+            <Col md={4}><h1 className='text-white pt-5'>Address</h1></Col>
             <Col md={2}></Col>
-           </Row>
+          </Row>
         </Container>
 
       </div>
@@ -328,10 +359,65 @@ const Header = () => {
         <Container fluid className='custom-color2'>
           <h4 className='text-center text-muted p-3'>Frequently Asked Questions</h4>
           <h1 className='text-center'>Some of the commonly asked questions</h1>
-           
+          <Container className='p-3'>
+            <Row>
+              <Col md={2}></Col>
+              <Col md={8}>
+                <Accordion defaultActiveKey="0" className='accordion'>
+                  <hr></hr>
+                  <Accordion.Item eventKey="0" className='accordion'>
+                    <Accordion.Header className='accordion2' >What is the starting price for Meragi’s Wedding Decor?</Accordion.Header>
+                    <Accordion.Body>
+                      While the cost of your decor would vary depending on your design preferences,
+                      number of events and elements, materials, and other factors,
+                      our starting price for decor packages is Rs. 50,000.
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <hr></hr>
+                  <Accordion.Item eventKey="2" className='accordion'>
+                    <Accordion.Header>What is a Meragi Wedding Designer and why do I need one?</Accordion.Header>
+                    <Accordion.Body>
+                      Our wedding designer will understand your aesthetic preferences and budget to come up with a design for your wedding. They’ll share decor options for each of your events that are customized to your wedding venue. The decor package they create for you will include a detailed breakdown of all costs involved in your wedding decor. It will also give you the option to mix and match different design options yourself.
+                      This personalized consultation helps you make informed decisions and ensure your wedding is exactly what you dream of.
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <hr></hr>
+                  <Accordion.Item eventKey="3" className='accordion'>
+                    <Accordion.Header>Does Meragi also execute the wedding or only take care of the design and planning?</Accordion.Header>
+                    <Accordion.Body>
+                      We not only design and plan your wedding but also execute the decor ourselves! We’ve built technology to ensure an error-free execution of every event we manage. This ensures you get exactly what you’re promised and avoids last-minute surprises on your big day!
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <hr></hr>
+                  <Accordion.Item eventKey="4" className='accordion'>
+                    <Accordion.Header>Does Meragi also provide Destination Wedding Packages?</Accordion.Header>
+                    <Accordion.Body>
+                      We do! Presently, we help fulfill destination weddings in Goa, Coorg, Chikkamagaluru, Mysuru, and Bangalore.
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <hr></hr>
+                  <Accordion.Item eventKey="5" className='accordion'>
+                    <Accordion.Header>Does Meragi provide decor for events other than weddings?</Accordion.Header>
+                    <Accordion.Body>
+                      Yes, we do! We provide decor for events such as birthday parties, baby showers, threading ceremonies, anniversary celebrations, as well as corporate events. The starting price for these decor packages is Rs. 50,000.
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <hr></hr>
+                  <Accordion.Item eventKey="6" className='accordion'>
+                    <Accordion.Header>I came across a wedding design on your Instagram page that I like. How can I get it for my wedding? </Accordion.Header>
+                    <Accordion.Body>
+                      You can either fill in the form above on this page with your name and contact details, or you can also DM us on Instagram with these details along with the design you like. One of our designers will then get in touch with you to chart out the details!
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <hr></hr>
+                </Accordion>
 
+              </Col>
+              <Col md={2}></Col>
+            </Row>
+          </Container>
         </Container>
-      </div>  
+      </div>
 
     </div>
 
