@@ -1,11 +1,11 @@
 // Header.js
 //import Service from './Service'
 import Accordion from 'react-bootstrap/Accordion';
-
+import Service from './Service';
 import React from 'react';
 import { FaBars } from 'react-icons/fa';
 import './Header.css';
-//import AppNavbar from './Navbar';
+ 
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { Navbar, Nav } from 'react-bootstrap';
 
@@ -157,7 +157,7 @@ const Header = () => {
         </Container>
       </div>
       <div>
-        <Container className='  mt-2'>
+        <Container className='mt-2'>
 
           <Card className="custom-card card3">
             <Row>
