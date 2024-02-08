@@ -1,8 +1,5 @@
-// Header.js
-//import Service from './Service'
-import Accordion from 'react-bootstrap/Accordion';
-import Service from './Service';
 import React from 'react';
+import Accordion from 'react-bootstrap/Accordion';
 import { FaBars } from 'react-icons/fa';
 import './Header.css';
  
@@ -28,15 +25,16 @@ const Header = () => {
                   style={{ height: '50px', width: '75px' }}
                 />
               </Navbar.Brand>
-              <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle-button"><Button variant="primary"> <FaBars /> </Button></Navbar.Toggle>
+              <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle-button"><Button variant="secondary"> <FaBars /> </Button></Navbar.Toggle>
               <Navbar.Collapse id="basic-navbar-nav justify-content-end">
 
                 <Nav className="float-end">
                   <Nav.Link className='text-dark' href="#home">
                     Home
                   </Nav.Link>
-
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <Nav.Link className='text-dark' href="#services">Services</Nav.Link>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <Nav.Link className='text-dark' href="#career">Career</Nav.Link>
                 </Nav>
 
