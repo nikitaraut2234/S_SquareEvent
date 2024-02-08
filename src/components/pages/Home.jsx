@@ -1,83 +1,177 @@
-import React from 'react';
+import React, { useState } from 'react'
 import Accordion from 'react-bootstrap/Accordion';
+import { useNavigate  } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
-import './Header.css';
- 
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { Navbar, Nav } from 'react-bootstrap';
-
 import { Card, CardImgOverlay } from 'react-bootstrap';
 
+export default function Home() {const navigate = useNavigate ();
 
-const Header = () => {
+  const [selectedContent, setSelectedContent] = useState('1');
+  const contentArray = [
+    (
+      <Row key={1}>
+        <Col md={12}>
+          <Card className='card-no-shadow'>
+            <Row>
+              <Col md={8} style={{backgroundColor:'green'}}>
+                <Row>
+                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
+                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
+                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
+                </Row>
+                <br />
+                <Row className=''>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={400} className='custom-card4' /></Col>
+                </Row>
+              </Col>
+              <Col md={4}>
+                <Row>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={300} className='custom-card4' /></Col>
+                </Row>
+                <br />
+                <Row>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={250} className='custom-card4' /> </Col>
+                </Row>
+              </Col>
+            </Row>
+          </Card>
+        </Col>
+      </Row>
+    ),
+    (
+      <Row key={2}>
+        <Col md={12}>
+          <Card className='card-no-shadow'>
+            <Row>
+              <Col md={8} style={{backgroundColor:'pink'}}>
+                <Row>
+                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
+                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
+                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
+                </Row>
+                <br />
+                <Row className=''>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={400} className='custom-card4' /></Col>
+                </Row>
+              </Col>
+              <Col md={4}>
+                <Row>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={300} className='custom-card4' /></Col>
+                </Row>
+                <br />
+                <Row>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={250} className='custom-card4' /> </Col>
+                </Row>
+              </Col>
+            </Row>
+          </Card>
+        </Col>
+      </Row>
+    ),
+    (
+      <Row key={3}>
+        <Col md={12}>
+          <Card className='card-no-shadow'>
+            <Row>
+              <Col md={8} style={{backgroundColor:'skyblue'}}>
+                <Row>
+                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
+                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
+                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
+                </Row>
+                <br />
+                <Row className=''>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={400} className='custom-card4' /></Col>
+                </Row>
+              </Col>
+              <Col md={4}>
+                <Row>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={300} className='custom-card4' /></Col>
+                </Row>
+                <br />
+                <Row>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={250} className='custom-card4' /> </Col>
+                </Row>
+              </Col>
+            </Row>
+          </Card>
+        </Col>
+      </Row>
+    ),
+    (
+      <Row key={4}>
+        <Col md={12}>
+          <Card className='card-no-shadow'>
+            <Row>
+              <Col md={8} style={{backgroundColor:'cyan'}}>
+                <Row>
+                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
+                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
+                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
+                </Row>
+                <br />
+                <Row className=''>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={400} className='custom-card4' /></Col>
+                </Row>
+              </Col>
+              <Col md={4}>
+                <Row>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={300} className='custom-card4' /></Col>
+                </Row>
+                <br />
+                <Row>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={250} className='custom-card4' /> </Col>
+                </Row>
+              </Col>
+            </Row>
+          </Card>
+        </Col>
+      </Row>
+    ),
+    (
+      <Row key={5}>
+        <Col md={12}>
+          <Card className='card-no-shadow'>
+            <Row>
+              <Col md={8} style={{backgroundColor:'orange'}}>
+                <Row>
+                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
+                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
+                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
+                </Row>
+                <br />
+                <Row className=''>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={400} className='custom-card4' /></Col>
+                </Row>
+              </Col>
+              <Col md={4}>
+                <Row>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={300} className='custom-card4' /></Col>
+                </Row>
+                <br />
+                <Row>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={250} className='custom-card4' /> </Col>
+                </Row>
+              </Col>
+            </Row>
+          </Card>
+        </Col>
+      </Row>
+    ),
+ 
+ 
+  ];
+
+  const handleClick = (content) => {
+    console.log('Clicked on index:', content);
+    setSelectedContent(content === 'mandap' ? 0 : content);
+  };
+
 
   return (
     <div>
-      <header>
-        <div>
-
-          <Navbar bg="white" variant="dark" className="navbar" expand="lg">
-            <Container>
-              <Navbar.Brand href="#" className='text-dark'>
-                <img
-                  src="./image/logo.png"
-                  alt="S_Square"
-                  style={{ height: '50px', width: '75px' }}
-                />
-              </Navbar.Brand>
-              <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle-button"><Button variant="secondary"> <FaBars /> </Button></Navbar.Toggle>
-              <Navbar.Collapse id="basic-navbar-nav justify-content-end">
-
-                <Nav className="float-end">
-                  <Nav.Link className='text-dark' href="#home">
-                    Home
-                  </Nav.Link>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <Nav.Link className='text-dark' href="#services">Services</Nav.Link>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <Nav.Link className='text-dark' href="#career">Career</Nav.Link>
-                </Nav>
-
-              </Navbar.Collapse>
-            </Container>
-          </Navbar>
-          <Container className="header-content">
-            <Row>
-              <Col md={6}>
-                <h1 className='text-center text mt-4'>Wedding  Made Easy</h1>
-
-              </Col>
-              <Col md={6}>
-                <Form className='p-3 card' id="getbtn">
-                  <h4>Speak To Our Expert</h4>
-                  <p>Have all question answered and get a free competitive quote </p>
-                  <Form.Group controlId="formBasicEmail">
-                    <Form.Label>Full Name*</Form.Label>
-                    <Form.Control type="text" placeholder="Enter Your Full Name" required />
-                    <br />
-                    <Form.Label>Phone Number*</Form.Label>
-                    <Form.Control type="number" placeholder="Enter Your Phone Number" required />
-                    <br />
-                    <Form.Label>Event Date</Form.Label>
-                    <Form.Control type="date" placeholder="When is Your event?" required />
-                  </Form.Group>
-                  <br />
-                  <Form.Group controlId="checkboxForm">
-                    <Form.Check
-                      type="checkbox"
-                      label="Send me update on Whatsapp"
-
-                    />
-                  </Form.Group><br />
-                  <Button variant="denger" className='btn btn-block btn-danger' type="submit">
-                    Get Instant Quote
-                  </Button>
-                </Form>
-              </Col>
-            </Row>
-          </Container>
-        </div>
-      </header>
       <div>
         <Container className='mt-2'>
           <p className='text-center text-muted'>Convenient packages & reliable pricing</p>
@@ -155,7 +249,7 @@ const Header = () => {
         </Container>
       </div>
       <div>
-        <Container className='mt-2'>
+        <Container className='  mt-2'>
 
           <Card className="custom-card card3">
             <Row>
@@ -227,67 +321,57 @@ const Header = () => {
         </Container>
       </div>
       <div>
-
-        <Container className='mt-2'>
-          <h4 className='text-center text-muted'>Wedding Designs</h4>
-          <h1 className='text-center'>Check out some of our</h1>
-          <br></br>
-          <h3 className='text-center'>best-selling designs </h3>
-          <br></br>
-          <br></br>
-          <Row >
-            <Col md={3} lg={3}>
-              <h3 className='text-center'>Mandap</h3>
-            </Col>
-            <Col md={3} lg={3}>
-              <h3 className='text-center'>Reception</h3>
-            </Col>
-            <Col md={3} lg={3}>
-              <h3 className='text-center'>Haldi & Mehendi</h3>
-            </Col>
-            <Col md={3} lg={3}>
-              <h3 className='text-center'>3D Design</h3>
-            </Col>
-          </Row>
-          <Row>
-            <Col md={12}>
-              <Card className='card-no-shadow'>
-                 <Row>
-                 <Col md={8}>
-                  <Row>
-                    <Col md={4}  ><Card.Img overlay src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
-                    <Col md={4}   ><Card.Img overlay src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
-                    <Col md={4}  > <Card.Img overlay src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
-                  </Row> <br></br>
-                  <Row className=''>
-                  <Col md={12} ><Card.Img overlay src='/image/image6.jpg' alt='...' height={400} className='custom-card4'/></Col>
-                  </Row>
-                   
-                 </Col>
-                <Col md={4}>  
-                <Row>
-                  <Col md={12}  ><Card.Img overlay src='/image/image6.jpg' alt='...' height={300} className='custom-card4' /></Col>
-                </Row>
-                <br></br>
-                <Row>
-                <Col md={12}  ><Card.Img overlay src='/image/image6.jpg' alt='...' height={250} className='custom-card4' /> </Col>
-                </Row>
-                
-                </Col>
-                 </Row>
-              </Card>
-
-            </Col>
-          </Row>
-          <Row>
-            <Col className='text-center mt-4'>
-              <Button variant="denger" className='btn  btn-danger' type="submit" >
-                <a href='#getbtn'>Get Instant Quote</a>
-              </Button>
-            </Col>
-          </Row>
-        </Container>
-      </div>
+      <Container className='mt-2'>
+        <h4 className='text-center text-muted'>Wedding Designs</h4>
+        <h1 className='text-center'>Check out some of our</h1>
+        <br></br>
+        <h3 className='text-center'>best-selling designs </h3>
+        <br></br>
+        <br></br>
+        <Row>
+          <Col md={3} lg={3}>
+          <h3
+              className='text-center'
+              onClick={() => handleClick(1)}
+            >
+              Mandap
+            </h3>
+          </Col>
+          <Col md={3} lg={3}>
+            <h3
+              className='text-center'
+              onClick={() => handleClick(2)}
+            >
+              Reception
+            </h3>
+          </Col>
+          <Col md={3} lg={3}>
+            <h3
+              className='text-center'
+              onClick={() => handleClick(3)}
+            >
+              Haldi & Mehendi
+            </h3>
+          </Col>
+          <Col md={3} lg={3}>
+            <h3
+             className='text-center'
+              onClick={() => handleClick(4)}
+            >
+              3D Design
+            </h3>
+          </Col>
+        </Row>
+        {selectedContent && contentArray[selectedContent]}
+        <Row>
+          <Col className='text-center mt-4'>
+            <Button variant="danger" className='btn btn-danger' type="submit" >
+              <a href='#getbtn'>Get Instant Quote</a>
+            </Button>
+          </Col>
+        </Row>
+      </Container>
+    </div>
       <div>
         <Container fluid className='custom-color2 mt-3'>
           <h4 className='text-center text-muted p-3'>Testimonials</h4>
@@ -416,10 +500,6 @@ const Header = () => {
           </Container>
         </Container>
       </div>
-
     </div>
-
-  );
-};
-
-export default Header;
+  )
+}

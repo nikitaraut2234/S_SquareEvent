@@ -2,8 +2,8 @@ import React from 'react';
 import { Container, Row, Col, Button, Form, Table } from 'react-bootstrap';
 import { FaBars } from 'react-icons/fa';
 import { Nav, Navbar } from 'react-bootstrap';
-import './Service.css';
-const Service = () => {
+import './Services.css';
+const Services = () => {
   return (
     <div>
       <Container className='mt-3'>
@@ -77,4 +77,4 @@ const Service = () => {
   );
 };
 
-export default Service;
+export default Services;
