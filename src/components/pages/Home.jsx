@@ -1,16 +1,18 @@
 import React, { useState } from 'react'
 import Accordion from 'react-bootstrap/Accordion';
 import { useNavigate  } from 'react-router-dom';
-import { FaBars } from 'react-icons/fa';
+ 
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
-import { Navbar, Nav } from 'react-bootstrap';
-import { Card, CardImgOverlay } from 'react-bootstrap';
+ 
+import { Card } from 'react-bootstrap';
+import Header from '../common_components/Header';
 
 export default function Home() {const navigate = useNavigate ();
 
   const [selectedContent, setSelectedContent] = useState('1');
   const contentArray = [
     (
+      
       <Row key={1}>
         <Col md={12}>
           <Card className='card-no-shadow'>
@@ -172,6 +174,44 @@ export default function Home() {const navigate = useNavigate ();
 
   return (
     <div>
+      <header> 
+        <Header />
+        <Container className="header-content">
+            <Row>
+              <Col md={6}>
+                <h1 className='text-center text mt-4'>Wedding  Made Easy</h1>
+
+              </Col>
+              <Col md={6}>
+                <Form className='p-3 card' id="getbtn">
+                  <h4>Speak To Our Expert</h4>
+                  <p>Have all question answered and get a free competitive quote </p>
+                  <Form.Group controlId="formBasicEmail">
+                    <Form.Label>Full Name*</Form.Label>
+                    <Form.Control type="text" placeholder="Enter Your Full Name" required />
+                    <br />
+                    <Form.Label>Phone Number*</Form.Label>
+                    <Form.Control type="number" placeholder="Enter Your Phone Number" required />
+                    <br />
+                    <Form.Label>Event Date</Form.Label>
+                    <Form.Control type="date" placeholder="When is Your event?" required />
+                  </Form.Group>
+                  <br />
+                  <Form.Group controlId="checkboxForm">
+                    <Form.Check
+                      type="checkbox"
+                      label="Send me update on Whatsapp"
+
+                    />
+                  </Form.Group><br />
+                  <Button variant="denger" className='btn btn-block btn-danger' type="submit">
+                    Get Instant Quote
+                  </Button>
+                </Form>
+              </Col>
+            </Row>
+          </Container>
+          </header>
       <div>
         <Container className='mt-2'>
           <p className='text-center text-muted'>Convenient packages & reliable pricing</p>

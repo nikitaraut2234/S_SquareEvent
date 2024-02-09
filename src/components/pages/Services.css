@@ -6,3 +6,17 @@
   .float-end{
     margin-left:60%;
   }
+  .form-control{
+    border-radius:10px;
+    margin: 5px;
+  }
+  .card_custom{
+    box-shadow:5px 5px 5px 5px rgb(202, 195, 241);
+    border: 2px solid white;
+    border-radius: none !important;
+    /* background-color: whitesmoke; */
+  }
+.rounded{
+  border: 2px solid black;
+  border-radius:100%;
+}

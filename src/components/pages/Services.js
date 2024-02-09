@@ -1,77 +1,80 @@
 import React from 'react';
-import { Container, Row, Col, Button, Form, Table } from 'react-bootstrap';
-import { FaBars } from 'react-icons/fa';
-import { Nav, Navbar } from 'react-bootstrap';
+import { Container, Row, Col, Button, Form, Card, CardImg} from 'react-bootstrap';
+import { MdAddAPhoto } from "react-icons/md";
 import './Services.css';
+import Header from '../common_components/Header';
 const Services = () => {
   return (
     <div>
       <Container className='mt-3'>
-        <div>
+        <Header />
 
-          <Navbar bg="white" variant="dark" className="navbar" expand="lg">
-            <Container>
-              <Navbar.Brand href="#" className='text-dark'>
-                <img
-                  src="./image/logo.png"
-                  alt="S_Square"
-                  style={{ height: '50px', width: '75px' }}
-                />
-              </Navbar.Brand>
-              <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle-button"><Button > <FaBars /> </Button></Navbar.Toggle>
-              <Navbar.Collapse id="basic-navbar-nav justify-content-end">
+        <Row>
+          <Col md={6}>
 
-                <Nav className="float-end">
-                  <Nav.Link className='text-dark' href="#home">
-                    Home
-                  </Nav.Link>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <Nav.Link className='text-dark' href="#services">Services</Nav.Link>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <Nav.Link className='text-dark' href="#career">Career</Nav.Link>
-                </Nav>
+            <h2>  &nbsp;&nbsp;&nbsp;#MakeItBeautiful</h2>
+            <img
+              src="./image/logo.png"
+              alt="S_Square"
+              style={{ height: '100px', width: '200px' }}
+            />
+            <p className='display-5'>Wedding Services</p>
+            <p>Modern. Convenient. Affordable</p>
+            <b><p className='text-primary'>1500+ Weddings | 10+ Years | 4.8/5 Rating</p></b>
+            <br></br>
+            <Form>
+              <Row>
+                <Col md={6}>
+                  <div class="form-group">
+                    <input type="text" className="form-control" placeholder="Enter Name" id="email" />
+                  </div>
+                </Col>
+                <Col md={6}>
+                  <div class="form-group">
+                    <input type="number" className="form-control" placeholder="Enter Phone" id="number" />
+                  </div>
+                </Col>
+              </Row>
 
-              </Navbar.Collapse>
-            </Container>
-          </Navbar>
+              <Row>
+                <Col md={12}>
+                  <div class="form-group">
+                    <input type="date" className="form-control" placeholder="When is your event?" id="date" />
+                  </div>
+                </Col>
+              </Row>
+              <br></br>
+              <Row>
+                <Col md={10}><Button className='btn btn-block' variant='danger'>Contact Us</Button></Col>
+                <Col md={2}></Col>
+              </Row>
+            </Form>
+          </Col>
+          <Col md={6}>
+            <Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={500} />
+          </Col>
+        </Row>
+        <br></br>
+        <Container>
+          <b><h1 className='text-center'>We Provide</h1></b>
+          <p className='text-center'>Value for Money Services</p>
           <Container>
             <Row>
-              <Col md={6}>
-
-                <h2>  &nbsp;&nbsp;&nbsp;#MakeItBeautiful</h2>
-                <img
-                  src="./image/logo.png"
-                  alt="S_Square"
-                  style={{ height: '150px', width: '400px' }}
-                />
-                <p className='display-5'>Wedding Services</p>
-                <p>Modern. Convenient. Affordable</p>
-                <b><p className='text-primary'>1500+ Weddings | 10+ Years | 4.8/5 Rating</p></b>
-                <Form>
-                  <Table>
-                    <tr>
-                      <td>
-                        <div class="form-group">
-                          <label for="email">Email address:</label>
-                          <input type="email" class="form-control" placeholder="Enter email" id="email" />
-                        </div>
-                      </td>
-                      <td>
-                        <div class="form-group">
-                          <label for="email">Email address:</label>
-                          <input type="email" class="form-control" placeholder="Enter email" id="email" />
-                        </div>
-                      </td>
-                    </tr>
-                  </Table>
-                </Form>
+              <Col md={1}></Col>
+              <Col md={3} className='border m-1'>
+               <p className='text-center mt-2'><MdAddAPhoto  /></p>
               </Col>
-              <Col md={6}>
-
+              <Col md={3} className='border m-1'>
+              <p className='text-center mt-2'><MdAddAPhoto  /></p>
               </Col>
+              <Col md={3}className='border m-1'>
+              <p className='text-center mt-2'><MdAddAPhoto  /></p>
+              </Col>
+              <Col md={1}></Col>
             </Row>
           </Container>
-        </div>
+        </Container>
+
       </Container>
     </div>
   );
