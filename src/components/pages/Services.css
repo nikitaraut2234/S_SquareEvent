@@ -11,12 +11,13 @@
     margin: 5px;
   }
   .card_custom{
-    box-shadow:5px 5px 5px 5px rgb(202, 195, 241);
+    box-shadow:0.5px 0.5px 1px 1px rgb(215, 215, 253);
     border: 2px solid white;
-    border-radius: none !important;
+
     /* background-color: whitesmoke; */
   }
-.rounded{
+/* .rounded{
   border: 2px solid black;
   border-radius:100%;
-}
+  margin: 20px;
+} */

@@ -7,12 +7,13 @@ import Footer from './components/common_components/Footer';
 import Home from './components/pages/Home';
 import Services from './components/pages/Services';
 import Careers from './components/pages/Careers';
-
+ 
 function App() {
   return (
     <div className="App scroll-container">
       {/* <Header /> */}
-       <Services />
+      <Services />
+       
         <Routes>
           {/* <Route path="/" element={<Home />} /> */}
           {/* <Route path="/wedding-services" element={<Services />} /> */}
