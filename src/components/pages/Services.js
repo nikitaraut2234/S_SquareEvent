@@ -61,76 +61,76 @@ const Services = () => {
           <Container>
             <Row className='p-1'>
               <Col md={1}></Col>
-              <Col md={3} className='card_custom border m-4'>
+              <Col md={3} className='card_custom border m-2'>
                
                <p className='text-center mt-2'><Image src="/image/image6.jpg" height={60} width={60} roundedCircle /></p>
                <b  className='text-center'><h6>Decoration</h6></b>
                 
-               <p  className='text-center'>Proffetionally designed decor at atteracive prices</p>
+                <small><p  className='text-center'>Proffetionally designed decor at atteracive prices</p></small>
               </Col>
-              <Col md={3} className='card_custom border m-4'>
+              <Col md={3} className='card_custom border m-2'>
                
                <p className='text-center mt-2'><Image src="/image/image6.jpg" height={60} width={60} roundedCircle /></p>
                <b  className='text-center'><h6>Photography</h6></b>
                
-               <p  className='text-center'>Expert candid and traditional photography teams</p>
+                <small><p  className='text-center'>Expert candid and traditional photography teams</p></small>
               </Col>
-              <Col md={3}className='card_custom border m-4'>
+              <Col md={3}className='card_custom border m-2'>
               
                <p className='text-center mt-2'><Image src="/image/image6.jpg" height={60} width={60} roundedCircle /></p>
                <b  className='text-center'><h6>Videography</h6></b>
                 
-               <p  className='text-center'>High quality traditional and candid videography</p>
+                <small><p  className='text-center'>High quality traditional and candid videography</p></small>
               </Col>
               <Col md={1}></Col>
             </Row>
             <Row  className='p-1'>
               <Col md={1}></Col>
-              <Col md={3} className='card_custom border m-4'>
+              <Col md={3} className='card_custom border m-2'>
               
                <p className='text-center mt-2'><Image src="/image/image6.jpg" height={60} width={60} roundedCircle /></p>
                <b  className='text-center'><h6>Makeup & hairstyling</h6></b>
                
-               <p  className='text-center'>Talented make up artists who ensure you look your best</p>
+                <small><p  className='text-center'>Talented make up artists who ensure you look your best</p></small>
               </Col>
-              <Col md={3} className='card_custom border m-4'>
+              <Col md={3} className='card_custom border m-2'>
              
                <p className='text-center mt-2'><Image src="/image/image6.jpg" height={60} width={60} roundedCircle /></p>
                <b  className='text-center'><h6>Mehendi</h6></b>
                 
-               <p  className='text-center'>  Experienced mehendi artists who provide a wide range of designs  </p>
+                <small><p  className='text-center'>  Experienced mehendi artists who provide a wide range of designs  </p></small>
               </Col>
-              <Col md={3}className='card_custom border m-4'>
+              <Col md={3}className='card_custom border m-2'>
               
                <p className='text-center mt-2'><Image src="/image/image6.jpg" height={60} width={60} roundedCircle /></p>
                <b  className='text-center'><h6>Catering</h6></b>
                
-               <p  className='text-center'>Delicious menus covering all cuisines and price ranges</p>
+                <small><p  className='text-center'>Delicious menus covering all cuisines and price ranges</p></small>
               </Col>
               <Col md={1}></Col>
             </Row>
             <Row  className='p-1'>
               <Col md={1}></Col>
-              <Col md={3} className='card_custom border m-4'>
+              <Col md={3} className='card_custom border m-2'>
              
                <p className='text-center mt-2'><Image src="/image/image6.jpg" height={60} width={60} roundedCircle /></p>
-               <b  className='text-center'><h6>Entertainment</h6></b>
+               <b className='text-center'><h6>Entertainment</h6></b>
                
-               <p  className='text-center'>From DJs to traditional performances, we have high quality artists</p>
+                <small><p  className='text-center'>From DJs to traditional performances, we have high quality artists</p></small>
               </Col>
-              <Col md={3} className='card_custom border m-4'>
+              <Col md={3} className='card_custom border m-2'>
                
                <p className='text-center mt-2'><Image src="/image/image6.jpg" height={60} width={60} roundedCircle /></p>
                <b  className='text-center'><h6>Venue</h6></b>
                 
-               <p  className='text-center'>We help you find the right space that matches your budget</p>
+               <small> <p  className='text-center'>We help you find the right space that matches your budget</p></small>
               </Col>
-              <Col md={3}className='card_custom border m-4'>
+              <Col md={3}className='card_custom border m-2'>
                
                <p className='text-center mt-2'><Image src="/image/image6.jpg" height={60} width={60} roundedCircle /></p>
                <b  className='text-center'><h6>Invites</h6></b>
                 
-               <p  className='text-center'>Invitation designs that perfectly match your decor theme</p>
+               <small> <p className='text-center'>Invitation designs that perfectly match your decor theme</p></small>
               </Col>
               <Col md={1}></Col>
             </Row>
@@ -145,7 +145,64 @@ const Services = () => {
         <Container fluid>
           <Gallery />
         </Container>
-
+        <Container>
+          <br></br>
+          <br></br>
+          <b><h1 className='text-center'>The SSquare Difference</h1></b>
+          <h3 className='text-center text-muted'>Reasons why we are the best in the business</h3>
+          <br></br>
+          <Container>
+            <Row>
+            <Col md={1}></Col>
+              <Col md={5}>
+              <Card className='card-shadow' >
+                <Card.Img src='/image/img3.png'
+                  alt='...'
+                  position='top' height={200} />
+                <br></br>
+                 <Row>
+                  <Col md={2}></Col>
+                  <Col md={8}>
+                  <Card.Img src='/image/img3.png'
+                  alt='...'
+                  position='top' height={100} />
+                  </Col>
+                  <Col md={2}></Col>
+                 </Row>
+              </Card>
+              </Col>
+              <Col md={1}></Col>
+              <Col md={4}>
+                <br></br>
+                <br></br>
+                <br></br> 
+                <b> <h3 className='text-center mt-3'><span style={{color:'orange'}}>Trusted</span> Team Of Professionals</h3></b>
+                <p className='text-muted text-center'>We have a large team of experts who will make your wedding dream come true</p>
+              </Col>
+              <Col md={1}></Col>
+            </Row>
+          </Container>
+          <Container className='mt-3'>
+            <br></br>
+            <br></br>
+          <Row>
+            <Col md={1}></Col>
+             <Col md={6}> 
+             <Card.Img src='image/image8.jpg'
+                  alt='...'
+                  position='top' height={250}/>
+             </Col>
+             <Col md={4}>
+             <b> <h3 className='text-center mt-5'><span style={{color:'orange'}}>Value</span> For Money</h3></b>
+                <p className='text-muted text-center'>Get the best quality services at the most reasonable prices</p>
+             </Col>
+             <Col md={1}></Col> 
+            </Row>
+          </Container>
+        </Container>
+        <Container className='mt-3'>
+           
+        </Container>
       </Container>
     </div>
   );
