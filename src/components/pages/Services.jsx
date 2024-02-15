@@ -3,7 +3,8 @@ import { Container, Row, Col, Button, Form, Card, Image } from 'react-bootstrap'
 import Gallery from '../common_components/Gallery';
 import './Services.css';
 import Header from '../common_components/Header';
-const Services = () => {
+
+export default function Services(){
   return (
     <div>
       <Container className='mt-3'>
@@ -251,8 +252,8 @@ const Services = () => {
           <br></br>
           <br></br>
           <Row>
-            <Col md={4}>
-              <Card className='card-border' >
+            <Col md={4} className='card-border'>
+              
                 <Card.Img src='/image/img3.png'
                   alt='...'
                   position='top' className='image' />
@@ -269,18 +270,18 @@ const Services = () => {
                   <br></br>
                   <br></br>
                   <br></br>
-                  <br></br>
-                  <br></br>
+               
+                  
                   
                    <p className='text-muted mt-5'> Sachit & Monish <br></br>The Tamarind Tree, Bangalore </p>
                    
                   
                 </Card.Text>
                  
-              </Card>
+             
             </Col>
-            <Col md={4}>
-              <Card className='card-border'>
+            <Col md={4} className='card-border'>
+              
                 <Card.Img src='/image/img3.png'
                   alt='...'
                   position='top' className='image' />
@@ -295,10 +296,10 @@ const Services = () => {
                 <br></br>
                 <p className='text-muted'> Pranya Prabhu <br></br>Taj West End, Bangalore</p>
                 </Card.Text>
-              </Card>
+              
             </Col>
-            <Col md={4}>
-              <Card className='card-border'>
+            <Col md={4} className='card-border'>
+               
                 <Card.Img src='/image/img3.png'
                   alt='...'
                   position='top' className='image' />
@@ -312,7 +313,7 @@ const Services = () => {
                   <br></br>
                   Vidushi Singh<br></br>The Leela Place, Bangalore
                 </Card.Text>
-              </Card>
+               
             </Col>
 
           </Row>
@@ -322,5 +323,5 @@ const Services = () => {
   );
 };
 
-export default Services;
+//export default Services;
 

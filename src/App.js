@@ -12,12 +12,12 @@ function App() {
   return (
     <div className="App scroll-container">
       {/* <Header /> */}
-      <Services />
+      {/* <Services /> */}
        
         <Routes>
-          {/* <Route path="/" element={<Home />} /> */}
-          {/* <Route path="/wedding-services" element={<Services />} /> */}
-          {/* <Route path="/careers" element={<Careers />} /> */}
+          <Route path="/" element={<Home />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/careers" element={<Careers />} />
         </Routes>
 
       <Footer />
