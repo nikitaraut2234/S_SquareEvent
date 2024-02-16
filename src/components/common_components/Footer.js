@@ -6,7 +6,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 function Footer() {
     return (
         <div>
-            <hr></hr>
+            <hr className='hr1'></hr>
             <section>
                 <Container className='text-center text-md-start mt-5'>
                     <Row className='mt-3'>
