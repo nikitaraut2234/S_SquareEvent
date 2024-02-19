@@ -71,6 +71,22 @@ export default function Careers() {
               <h5>Buisness Analyst</h5>
             </Card>
            </div>
+           <div>
+            
+            <Card className='card-no-shadow border'>
+              <h5>Buisness Analyst</h5>
+            </Card>
+           </div>
+           <br></br>
+         
+           <div>
+            
+            <Card className='card-no-shadow border'>
+              <h5>Buisness Analyst</h5>
+            </Card>
+           </div>
+           <br></br>
+         
         </Container>
       </div>
     </div>
