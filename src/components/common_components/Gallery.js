@@ -9,7 +9,7 @@ export default function App() {
                     <Carousel.Item>
                     <img
                             className="img_width d-block"
-                            src="/image/image5.jpg"
+                            src="/image/image6.jpg"
 
                             alt="Third slide"
                         />
@@ -26,7 +26,7 @@ export default function App() {
                     <Carousel.Item>
                         <img
                             className="img_width d-block"
-                            src="/image/image5.jpg"
+                            src="/image/image8.jpg"
 
                             alt="Third slide"
                         />
