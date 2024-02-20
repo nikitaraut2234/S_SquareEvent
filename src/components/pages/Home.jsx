@@ -24,7 +24,7 @@ export default function Home() {const navigate = useNavigate ();
                   <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
                 </Row>
                 <br />
-                <Row className=''>
+                <Row>
                   <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={400} className='custom-card4' /></Col>
                 </Row>
               </Col>
@@ -84,7 +84,7 @@ export default function Home() {const navigate = useNavigate ();
                   <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
                 </Row>
                 <br />
-                <Row className=''>
+                <Row>
                   <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={400} className='custom-card4' /></Col>
                 </Row>
               </Col>
@@ -179,7 +179,9 @@ export default function Home() {const navigate = useNavigate ();
         <Container className="header-content">
             <Row>
               <Col md={6}>
-                <h1 className='text-center text mt-4'>Wedding  Made Easy</h1>
+                <br />
+                <br /><br /><br /><br /><br /> 
+                <h1 className='text text-center mt-5'>Wedding  Made Easy</h1>
 
               </Col>
               <Col md={6}>
@@ -213,12 +215,13 @@ export default function Home() {const navigate = useNavigate ();
           </Container>
           </header>
       <div>
-        <Container className='mt-2'>
+        <Container className='mt-3'>
           <p className='text-center text-muted'>Convenient packages & reliable pricing</p>
           <h1 className='text-center '>Services we offer</h1>
-          <Row className='row-cols-1 row-cols-md-4'>
-            <Col>
-              <Card className='card-no-shadow' >
+           <Container>
+           <Row className='row-cols-1 row-cols-md-4'>
+            <Col md={3} >
+              <Card className='card-no-shadow border h-100' >
                 <Card.Img src='/image/img3.png'
                   alt='...'
                   position='top' className='image' />
@@ -229,8 +232,8 @@ export default function Home() {const navigate = useNavigate ();
                 </Card.Text>
               </Card>
             </Col>
-            <Col>
-              <Card className='card-no-shadow'>
+            <Col md={3}>
+              <Card className='card-no-shadow border h-100'>
                 <Card.Img src='/image/img3.png'
                   alt='...'
                   position='top' className='image' />
@@ -241,31 +244,32 @@ export default function Home() {const navigate = useNavigate ();
                 </Card.Text>
               </Card>
             </Col>
-            <Col>
-              <Card className='card-no-shadow'>
+            <Col md={3}>
+              <Card className='card-no-shadow border h-100'>
                 <Card.Img src='/image/img3.png'
                   alt='...'
                   position='top' className='image' />
                 <br></br>
                 <Card.Title className='text-center'> <h6>Venue Consultation</h6></Card.Title>
-                <Card.Text className='text-center text-muted'>
+                <Card.Text className='text-center'>
                   Get expert help in finding the perfect venue for your wedding.
                 </Card.Text>
               </Card>
             </Col>
-            <Col>
-              <Card className='card-no-shadow'>
+            <Col md={3}>
+              <Card className='card-no-shadow border h-100'>
                 <Card.Img src='/image/img3.png'
                   alt='...'
                   position='top' className='image' />
                 <br />
                 <Card.Title className='text-center'> <h6>SSquare Exclusive</h6></Card.Title>
                 <Card.Text className='text-center'>
-                  Our xclusiv offering for larger-than-life, luxury weddings
+                  Our Exclusive offering for larger-than-life, luxury weddings
                 </Card.Text>
               </Card>
             </Col>
-          </Row>
+          </Row>  
+           </Container>
 
           <Row>
             <Col className='text-center mt-4'>
@@ -441,17 +445,17 @@ export default function Home() {const navigate = useNavigate ();
           <Row>
 
             <Col md={3}>
-              <Card.Img overlay src='/image/image6.jpg' alt='...' height={325} className='custom-card3' />
+              <Card.Img overlay src='/image/image6.jpg' alt='...' height={300} className='custom-card3' />
 
             </Col>
             <Col md={3}>
-              <Card.Img overlay src='/image/image6.jpg' alt='...' height={325} className='custom-card3' />
+              <Card.Img overlay src='/image/image6.jpg' alt='...' height={300} className='custom-card3' />
             </Col>
             <Col md={3}>
-              <Card.Img overlay src='/image/image6.jpg' alt='...' height={325} className='custom-card3' />
+              <Card.Img overlay src='/image/image6.jpg' alt='...' height={300} className='custom-card3' />
             </Col>
             <Col md={3}>
-              <Card.Img overlay src='/image/image6.jpg' alt='...' height={325} className='custom-card3' />
+              <Card.Img overlay src='/image/image6.jpg' alt='...' height={300} className='custom-card3' />
             </Col>
 
           </Row>
