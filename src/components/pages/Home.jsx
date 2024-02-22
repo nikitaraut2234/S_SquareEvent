@@ -19,22 +19,22 @@ export default function Home() {const navigate = useNavigate ();
             <Row>
               <Col md={8} style={{backgroundColor:'green'}}>
                 <Row>
-                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
-                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
-                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
+                  <Col md={4}><img overlay={Col} className="custom-card4"src="/image/image6.jpg" alt="..." height={150}/></Col>
+                  <Col md={4}><img overlay={Col} className="custom-card4"src="/image/image6.jpg" alt="..." height={150}/></Col>
+                  <Col md={4}><img overlay={Col} className="custom-card4"src="/image/image6.jpg" alt="..." height={150}/></Col>
                 </Row>
                 <br />
                 <Row>
-                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={400} className='custom-card4' /></Col>
+                  <Col md={12}><img overlay={Col} className="custom-card4"src="/image/image6.jpg" alt="..." height={150}/></Col>
                 </Row>
               </Col>
               <Col md={4}>
                 <Row>
-                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={300} className='custom-card4' /></Col>
+                  <Col md={12}><img overlay={Col} className="custom-card4"src="/image/image6.jpg" alt="..." height={150}/></Col>
                 </Row>
                 <br />
                 <Row>
-                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={250} className='custom-card4' /> </Col>
+                  <Col md={12}><img overlay={Col} className="custom-card4"src="/image/image6.jpg" alt="..." height={150}/> </Col>
                 </Row>
               </Col>
             </Row>
@@ -177,15 +177,16 @@ export default function Home() {const navigate = useNavigate ();
       <header> 
         <Header />
         <Container className="header-content">
-            <Row>
+            <Row className='mt-5'>
               <Col md={6}>
                 <br />
-                <br /><br /><br /><br /><br /> 
+                <br /><br /><br /><br /><br /><br /><br /> <br /><br /> <br /><br /> <br /><br />  
                 <h1 className='text text-center mt-5'>Wedding  Made Easy</h1>
 
               </Col>
-              <Col md={6}>
-                <Form className='p-3 card' id="getbtn">
+              <Col md={6} className='mt-5'>
+                <br /><br /><br /><br />
+                <Form className='p-4 card' id="getbtn">
                   <h4>Speak To Our Expert</h4>
                   <p>Have all question answered and get a free competitive quote </p>
                   <Form.Group controlId="formBasicEmail">
@@ -319,7 +320,7 @@ export default function Home() {const navigate = useNavigate ();
           <br />
           <Row>
             <Col md={1}>
-            </Col>
+            </Col>  
             <Col md={5}>
               <Card.Img overlay src='/image/image5.jpg' alt='...' height={400} className='custom-card3' />
             </Col>
