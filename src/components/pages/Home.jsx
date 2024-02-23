@@ -186,7 +186,7 @@ export default function Home() {const navigate = useNavigate ();
               </Col>
               <Col md={6} className='mt-5'>
                 <br /><br /><br /><br />
-                <Form className='p-4 card' id="getbtn">
+                <Form className='p-2 card' id="getbtn">
                   <h4>Speak To Our Expert</h4>
                   <p>Have all question answered and get a free competitive quote </p>
                   <Form.Group controlId="formBasicEmail">

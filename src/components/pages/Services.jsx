@@ -59,7 +59,7 @@ export default function Services(){
         <Container>
           <b><h1 className='text-center'>We Provide</h1></b>
           <p className='text-center'>Value for Money Services</p>
-          <Container>
+          <Container className='text-center'>
             <Row className='p-1'>
               <Col md={1}></Col>
               <Col md={3} className='card_custom border m-2'>
