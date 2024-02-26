@@ -17,11 +17,11 @@ export default function Home() {const navigate = useNavigate ();
         <Col md={12}>
           <Card className='card-no-shadow'>
             <Row>
-              <Col md={8} style={{backgroundColor:'green'}}>
+              <Col md={8}>
                 <Row>
-                  <Col md={4}><img overlay={Col} className="custom-card4"src="/image/image6.jpg" alt="..." height={150}/></Col>
-                  <Col md={4}><img overlay={Col} className="custom-card4"src="/image/image6.jpg" alt="..." height={150}/></Col>
-                  <Col md={4}><img overlay={Col} className="custom-card4"src="/image/image6.jpg" alt="..." height={150}/></Col>
+                  <Col md={4}><img overlay={Col} className="custom-card4"src="/image/271610438_1070165930226510_7721468059368109211_n.jpg" alt="..." height={150}/></Col>
+                  <Col md={4}><img overlay={Col} className="custom-card4"src="/image/271554524_1013397569241822_7312277512912512289_n.jpg" alt="..." height={150}/></Col>
+                  <Col md={4}><img overlay={Col} className="custom-card4"src="/image/275209959_143609924803747_7916909912287378949_n.webp" alt="..." height={150}/></Col>
                 </Row>
                 <br />
                 <Row>
@@ -47,24 +47,24 @@ export default function Home() {const navigate = useNavigate ();
         <Col md={12}>
           <Card className='card-no-shadow'>
             <Row>
-              <Col md={8} style={{backgroundColor:'pink'}}>
+              <Col md={8}>
                 <Row>
-                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
-                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
-                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
+                  <Col md={4}><Card.Img overlay={Col} src='/image/271610438_1070165930226510_7721468059368109211_n.jpg' alt='...' height={150} className='custom-card4' /></Col>
+                  <Col md={4}><Card.Img overlay={Col} src='/image/271610438_1070165930226510_7721468059368109211_n.jpg' alt='...' height={150} className='custom-card4' /></Col>
+                  <Col md={4}><Card.Img overlay={Col} src='/image/271554524_1013397569241822_7312277512912512289_n.jpg' alt='...' height={150} className='custom-card4' /></Col>
                 </Row>
                 <br />
                 <Row className=''>
-                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={400} className='custom-card4' /></Col>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/271610438_1070165930226510_7721468059368109211_n.jpg' alt='...' height={400} className='custom-card4' /></Col>
                 </Row>
               </Col>
               <Col md={4}>
                 <Row>
-                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={300} className='custom-card4' /></Col>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/271610438_1070165930226510_7721468059368109211_n.jpg' alt='...' height={300} className='custom-card4' /></Col>
                 </Row>
                 <br />
                 <Row>
-                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={250} className='custom-card4' /> </Col>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/271554524_1013397569241822_7312277512912512289_n.jpg' alt='...' height={250} className='custom-card4' /> </Col>
                 </Row>
               </Col>
             </Row>
@@ -77,24 +77,24 @@ export default function Home() {const navigate = useNavigate ();
         <Col md={12}>
           <Card className='card-no-shadow'>
             <Row>
-              <Col md={8} style={{backgroundColor:'skyblue'}}>
+              <Col md={8} >
                 <Row>
-                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
-                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
-                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
+                  <Col md={4}><Card.Img overlay={Col} src='/image/275209959_143609924803747_7916909912287378949_n.webp' alt='...' height={150} className='custom-card4' /></Col>
+                  <Col md={4}><Card.Img overlay={Col} src='/image/271610438_1070165930226510_7721468059368109211_n.jpg' alt='...' height={150} className='custom-card4' /></Col>
+                  <Col md={4}><Card.Img overlay={Col} src='/image/271610438_1070165930226510_7721468059368109211_n.jpg' alt='...' height={150} className='custom-card4' /></Col>
                 </Row>
                 <br />
                 <Row>
-                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={400} className='custom-card4' /></Col>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/271554524_1013397569241822_7312277512912512289_n.jpg' alt='...' height={400} className='custom-card4' /></Col>
                 </Row>
               </Col>
               <Col md={4}>
                 <Row>
-                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={300} className='custom-card4' /></Col>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/271610438_1070165930226510_7721468059368109211_n.jpg' alt='...' height={300} className='custom-card4' /></Col>
                 </Row>
                 <br />
                 <Row>
-                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={250} className='custom-card4' /> </Col>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/271554524_1013397569241822_7312277512912512289_n.jpg' alt='...' height={250} className='custom-card4' /> </Col>
                 </Row>
               </Col>
             </Row>
@@ -107,24 +107,24 @@ export default function Home() {const navigate = useNavigate ();
         <Col md={12}>
           <Card className='card-no-shadow'>
             <Row>
-              <Col md={8} style={{backgroundColor:'cyan'}}>
+              <Col md={8}>
                 <Row>
-                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
-                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
-                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
+                  <Col md={4}><Card.Img overlay={Col} src='/image/271491370_141520791600778_5945632228028406481_n.jpg' alt='...' height={150} className='custom-card4' /></Col>
+                  <Col md={4}><Card.Img overlay={Col} src='/image/271491370_141520791600778_5945632228028406481_n.jpg' alt='...' height={150} className='custom-card4' /></Col>
+                  <Col md={4}><Card.Img overlay={Col} src='/image/322916973_1335494907284101_6554862916736957411_n.webp' alt='...' height={150} className='custom-card4' /></Col>
                 </Row>
                 <br />
                 <Row className=''>
-                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={400} className='custom-card4' /></Col>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/271491370_141520791600778_5945632228028406481_n.jpg' alt='...' height={400} className='custom-card4' /></Col>
                 </Row>
               </Col>
               <Col md={4}>
                 <Row>
-                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={300} className='custom-card4' /></Col>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/271491370_141520791600778_5945632228028406481_n.jpg' alt='...' height={300} className='custom-card4' /></Col>
                 </Row>
                 <br />
                 <Row>
-                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={250} className='custom-card4' /> </Col>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/271491370_141520791600778_5945632228028406481_n.jpg' alt='...' height={250} className='custom-card4' /> </Col>
                 </Row>
               </Col>
             </Row>
@@ -137,24 +137,24 @@ export default function Home() {const navigate = useNavigate ();
         <Col md={12}>
           <Card className='card-no-shadow'>
             <Row>
-              <Col md={8} style={{backgroundColor:'orange'}}>
+              <Col md={8}>
                 <Row>
-                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
-                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
-                  <Col md={4}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={150} className='custom-card4' /></Col>
+                  <Col md={4}><Card.Img overlay={Col} src='/image/Trishala.webp' alt='...' height={150} className='custom-card4' /></Col>
+                  <Col md={4}><Card.Img overlay={Col} src='/image/Puneetha 4.webp' alt='...' height={150} className='custom-card4' /></Col>
+                  <Col md={4}><Card.Img overlay={Col} src='/image/final render.webp' alt='...' height={150} className='custom-card4' /></Col>
                 </Row>
                 <br />
                 <Row className=''>
-                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={400} className='custom-card4' /></Col>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/Trishala.webp' alt='...' height={400} className='custom-card4' /></Col>
                 </Row>
               </Col>
               <Col md={4}>
                 <Row>
-                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={300} className='custom-card4' /></Col>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/final render.webp' alt='...' height={300} className='custom-card4' /></Col>
                 </Row>
                 <br />
                 <Row>
-                  <Col md={12}><Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={250} className='custom-card4' /> </Col>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/Puneetha 4.webp' alt='...' height={250} className='custom-card4' /> </Col>
                 </Row>
               </Col>
             </Row>
@@ -186,7 +186,7 @@ export default function Home() {const navigate = useNavigate ();
               </Col>
               <Col md={6} className='mt-5'>
                 <br /><br /><br /><br />
-                <Form className='p-2 card' id="getbtn">
+                <Form className='p-3 card' id="getbtn">
                   <h4>Speak To Our Expert</h4>
                   <p>Have all question answered and get a free competitive quote </p>
                   <Form.Group controlId="formBasicEmail">
@@ -235,7 +235,7 @@ export default function Home() {const navigate = useNavigate ();
             </Col>
             <Col md={3}>
               <Card className='card-no-shadow border h-100'>
-                <Card.Img src='/image/img3.png'
+                <Card.Img src='/image/Rectangle 40127-1.webp'
                   alt='...'
                   position='top' className='image' />
                 <br></br>
@@ -366,7 +366,7 @@ export default function Home() {const navigate = useNavigate ();
         </Container>
       </div>
       <div>
-      <Container className='mt-2'>
+      <Container className='main mt-2'>
         <h4 className='text-center text-muted'>Wedding Designs</h4>
         <h1 className='text-center'>Check out some of our</h1>
         <br></br>
@@ -470,7 +470,7 @@ export default function Home() {const navigate = useNavigate ();
           <h1 className='text-white text-center'>discussion with one of our wedding experts!</h1>
           <Row>
             <Col md={2}></Col>
-            <Col md={8} className='p-4'> <Button className='btn btn-primary'>Banglore</Button> <Button className='btn btn-primary'>Banglore</Button> <Button className='btn btn-primary'>Banglore</Button></Col>
+            <Col md={8} className='p-4'> <Button className='btn btn-primary'>Banglore</Button> <Button className='btn btn-primary'>Banglore</Button> <Button className='btn btn-primary'>Goa</Button></Col>
             <Col md={2}></Col>
           </Row>
           <Row>
