@@ -446,17 +446,17 @@ export default function Home() {const navigate = useNavigate ();
           <Row>
 
             <Col md={3}>
-              <Card.Img overlay src='/image/image6.jpg' alt='...' height={300} className='custom-card3' />
+              <Card.Img overlay src='/image/AurkoViniMehendiLR-9.webp' alt='...' height={300} className='custom-card3' />
 
             </Col>
             <Col md={3}>
-              <Card.Img overlay src='/image/image6.jpg' alt='...' height={300} className='custom-card3' />
+              <Card.Img overlay src='/image/AurkoViniMehendiLR-9.webp' alt='...' height={300} className='custom-card3' />
             </Col>
             <Col md={3}>
-              <Card.Img overlay src='/image/image6.jpg' alt='...' height={300} className='custom-card3' />
+              <Card.Img overlay src='/image/AurkoViniMehendiLR-9.webp' alt='...' height={300} className='custom-card3' />
             </Col>
             <Col md={3}>
-              <Card.Img overlay src='/image/image6.jpg' alt='...' height={300} className='custom-card3' />
+              <Card.Img overlay src='/image/AurkoViniMehendiLR-9.webp' alt='...' height={300} className='custom-card3' />
             </Col>
 
           </Row>
@@ -475,7 +475,7 @@ export default function Home() {const navigate = useNavigate ();
           </Row>
           <Row>
             <Col md={2}></Col>
-            <Col md={4}><Card.Img overlay src='/image/image6.jpg' alt='...' height={325} className='custom-card3' /></Col>
+            <Col md={4}><Card.Img overlay src='/image/Rectangle 32062.webp' alt='...' height={325} width={325} className='custom-card3' /></Col>
             <Col md={4}><h1 className='text-white pt-5'>Address</h1></Col>
             <Col md={2}></Col>
           </Row>
@@ -502,7 +502,7 @@ export default function Home() {const navigate = useNavigate ();
                   </Accordion.Item>
                   <hr></hr>
                   <Accordion.Item eventKey="2" className='accordion'>
-                    <Accordion.Header>What is a Meragi Wedding Designer and why do I need one?</Accordion.Header>
+                    <Accordion.Header className='accordion'> <p>What is a Meragi Wedding Designer and why do I need one?</p></Accordion.Header>
                     <Accordion.Body>
                       Our wedding designer will understand your aesthetic preferences and budget to come up with a design for your wedding. They’ll share decor options for each of your events that are customized to your wedding venue. The decor package they create for you will include a detailed breakdown of all costs involved in your wedding decor. It will also give you the option to mix and match different design options yourself.
                       This personalized consultation helps you make informed decisions and ensure your wedding is exactly what you dream of.
@@ -543,6 +543,7 @@ export default function Home() {const navigate = useNavigate ();
               <Col md={2}></Col>
             </Row>
           </Container>
+          
         </Container>
       </div>
     </div>

@@ -82,27 +82,28 @@ span{
  justify-content: center;
 }
 .accordion{
-  background-color:hsl(36, 59%, 87%) ;
-  border: none !important;
+  background: transparent !important;
    
 }
 .accordion2{
-  background-color:hsl(36, 59%, 87%) ;
+  background-color:hsl(36, 80%, 82%) ;
   border: none !important;
   box-shadow: none !important;
   outline: none;
   
 }
 .btn-primary{
-  background-image: linear-gradient(20deg,rgb(176, 171, 171),rgb(219, 209, 209));
+  background-color:white;
   width: 30%;
   margin: 3px;
+  padding: 0.5rem;
   color: black;
 }
 .custom-card4{
     
-  border-radius:10px;
+  border-radius:0.5rem;
   display: flex;
    
 }
+ 
  
