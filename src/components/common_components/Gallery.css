@@ -1,13 +1,23 @@
-.img_width{
-    width: 100%;
-    height: 80vh;
-}
-.custom-card{
+ 
+/* .custom-card{
     display:grid;
     column-gap: 40px;
     row-gap:2px;
 
-}
+} */
+/* .card_row{
+    display:grid;
+    column-gap: 40px;
+    row-gap:2px;
+} */
 .main{
     cursor: pointer;
 }
+* {
+    box-sizing: border-box;
+  }
+  
+  .row > .column {
+    padding:3rem;
+  }
+  

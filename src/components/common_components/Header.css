@@ -6,7 +6,11 @@ header {
     background-position: center;
     color: #fff; /* Set text color to white or adjust as needed */
   }
-   
+  @media only screen and (min-width: 400px) {
+    header { 
+       background-image: url('image/img1.jpg'); 
+    }
+  }
    
   .header-content {
     padding:3%; /* Adjust the padding as needed */
@@ -64,8 +68,11 @@ header {
    border-radius: 10px;
 }
 .custom-card3{
-  padding:5%;
+  padding:4%;
   border-radius:50px;
+}
+.custom-card3:hover{
+ padding: 6%;
 }
 .custom-color{
   background-color:hsl(36, 100%, 17%);
@@ -102,7 +109,7 @@ span{
 .custom-card4{
     
   border-radius:0.5rem;
-  display: flex;
+  display: flex ;
    
 }
  
