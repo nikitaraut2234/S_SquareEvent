@@ -4,6 +4,7 @@ import './Gallery.css';
 export default function App() {
     return (
         <div className='main'>
+          
             <Container fluid>
                 <Carousel>
                     <Carousel.Item>
