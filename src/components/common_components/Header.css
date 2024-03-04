@@ -6,6 +6,9 @@ header {
     background-position: center;
     color: #fff; /* Set text color to white or adjust as needed */
   }
+  .float-end{
+    margin-left:50%;
+  }
   @media only screen and (min-width: 400px) {
     header { 
        background-image: url('image/img1.jpg'); 
@@ -21,6 +24,7 @@ header {
     padding:10px;
     border-radius: 20px;
   } 
+
    
   .text-right{
     text-align: right;

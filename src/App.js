@@ -7,6 +7,7 @@ import Footer from './components/common_components/Footer';
 import Home from './components/pages/Home';
 import Services from './components/pages/Services';
 import Careers from './components/pages/Careers';
+import AboutUs from './components/pages/AboutUs';
 //import VideoApp from './components/common_components/VideoApp';
  
 function App() {
@@ -18,7 +19,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
+          <Route path='/AboutUs' element={<AboutUs />} />
           <Route path="/careers" element={<Careers />} />
+          
         </Routes>
 
       <Footer />

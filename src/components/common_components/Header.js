@@ -36,15 +36,19 @@ const Header = () => {
               </Navbar.Toggle>
               <Navbar.Collapse id="basic-navbar-nav justify-content-end">
                 <Nav className="float-end">
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   
                   <LinkContainer to="/">
                     <Nav.Link className='text-dark'>Home</Nav.Link>
                   </LinkContainer>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp; &nbsp;&nbsp;  
+                  <LinkContainer to="/AboutUs">
+                    <Nav.Link className='text-dark'>AboutUs</Nav.Link>
+                  </LinkContainer>
+                  &nbsp;&nbsp; &nbsp;&nbsp;    
                   <LinkContainer to="/Services">
                     <Nav.Link className='text-dark'>Services</Nav.Link>
                   </LinkContainer>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;  &nbsp;&nbsp;  
                   <LinkContainer to="/careers">
                     <Nav.Link className='text-dark'>Careers</Nav.Link>
                   </LinkContainer>
