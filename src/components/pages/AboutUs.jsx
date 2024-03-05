@@ -10,11 +10,9 @@ export default function AboutUs() {
             
              <Container className='pt-3'>
              <Header />
-            </Container>   
-             
-                <h1 className='m-auto'>S_Square Events</h1>
-             
-            
+            </Container>  
+                 <img src='image/pic10-free-img.png' alt='...' className='m-auto'/>
+                <h1 className='text-white'>S_Square Events</h1>
             </Container>
             <h2 className='text-center'>Our Team</h2>
              <Container>

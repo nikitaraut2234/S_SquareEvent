@@ -37,7 +37,7 @@ const Header = () => {
               <Navbar.Collapse id="basic-navbar-nav justify-content-end">
                 <Nav className="float-end">
                    
-                  <LinkContainer to="/">
+                  <LinkContainer to="/" className='active'>
                     <Nav.Link className='text-dark'>Home</Nav.Link>
                   </LinkContainer>
                   &nbsp;&nbsp; &nbsp;&nbsp;  

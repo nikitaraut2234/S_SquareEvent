@@ -52,7 +52,7 @@ export default function Services(){
             </Form>
           </Col>
           <Col md={6}>
-            <Card.Img overlay={Col} src='/image/image6.jpg' alt='...' height={500} />
+            <Card.Img overlay={Col} src='/image/e01144_27e4e27a648a49489a46b22dc4272333~mv2.webp' alt='...' height={500} />
           </Col>
         </Row>
         <br></br>

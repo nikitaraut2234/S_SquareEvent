@@ -6,6 +6,12 @@ header {
     background-position: center;
     color: #fff; /* Set text color to white or adjust as needed */
   }
+  .active{
+    color: black;
+  }
+  .active:hover {
+    color: red;
+  }
   .float-end{
     margin-left:50%;
   }
