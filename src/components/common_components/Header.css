@@ -74,7 +74,7 @@ header {
   /* additional styles if needed */
 }
 .custom-card2{
-   padding:10%;
+   padding:2%;
    border-radius: 10px;
 }
 .custom-card3{
@@ -126,4 +126,11 @@ span{
 .card_image{
   padding: 4%;
 }
- 
+.font{
+  font-family:cursive;
+  font:500;
+  color: blueviolet;
+}
+.online_text{
+  font-size:2rem;
+}

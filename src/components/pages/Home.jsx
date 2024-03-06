@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Accordion from 'react-bootstrap/Accordion';
 import { useNavigate  } from 'react-router-dom';
+import Video from '../common_components/Video';
  
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
  
@@ -298,13 +299,16 @@ export default function Home() {const navigate = useNavigate ();
 
           <Card className="custom-card card3">
             <Row>
-              <Col md={8} className='custom-card2'>
-                <p>Online Package</p>
-                <h1>Get an online package</h1>
+              <Col md={7} className='custom-card2'>
+                <p className='online_text'>Online Package</p>
+                <h1 className='font'>Get an online package</h1>
+                <br />
                 <h1>customized to your design preferences and budget.</h1>
               </Col>
-              <Col md={4}>
-                <Card.Img overlay src='/image/image7.jpg' alt='...' height={450} className='custom-card3' />
+              <Col md={5}>
+              <Video src={Video}  controls="controls"  autoPlay="false"  />
+              {/* <Card.Img overlay src='/image/image7.jpg' alt='...' height={450} className='custom-card3' /> */}
+                
               </Col>
             </Row>
           </Card>

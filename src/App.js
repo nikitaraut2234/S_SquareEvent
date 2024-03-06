@@ -10,6 +10,7 @@ import Careers from './components/pages/Careers';
 import AboutUs from './components/pages/AboutUs';
 //import VideoApp from './components/common_components/VideoApp';
  
+ 
 function App() {
   return (
     <div className="App scroll-container">
@@ -23,6 +24,7 @@ function App() {
           <Route path="/careers" element={<Careers />} />
           
         </Routes>
+         
 
       <Footer />
       
