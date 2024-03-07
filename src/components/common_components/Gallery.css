@@ -20,4 +20,11 @@
   /* .row > .column {
     padding:3rem;
   } */
+  .gallary_container{
+    display: flex;
+    
+  }
   
+/* .image_item{
+    gap: 3px;
+} */

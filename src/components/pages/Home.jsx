@@ -181,8 +181,8 @@ export default function Home() {const navigate = useNavigate ();
             <Row className='mt-5'>
               <Col md={6}>
                 <br />
-                <br /><br /><br /><br /><br /><br /><br /> <br /><br /> <br /><br /> <br /><br />  
-                <h1 className='text text-center mt-5'>Wedding  Made Easy</h1>
+                <br /><br /><br /><br /><br /><br /><br /> <br /><br />  
+                <h1 className='text text-center mt-4'>Wedding  Made Easy</h1>
 
               </Col>
               <Col md={6} className='mt-5'>
@@ -218,7 +218,7 @@ export default function Home() {const navigate = useNavigate ();
           </header>
       <div>
         <Container className='mt-3'>
-          <p className='text-center text-muted'>Convenient packages & reliable pricing</p>
+          <h5 className='text-center text-muted'>Convenient packages & reliable pricing</h5>
           <h1 className='text-center '>Services we offer</h1>
            <Container>
            <Row className='row-cols-1 row-cols-md-4'>
@@ -301,14 +301,15 @@ export default function Home() {const navigate = useNavigate ();
             <Row>
               <Col md={7} className='custom-card2'>
                 <p className='online_text'>Online Package</p>
+                <br></br>
                 <h1 className='font'>Get an online package</h1>
+                <br />
                 <br />
                 <h1>customized to your design preferences and budget.</h1>
               </Col>
               <Col md={5}>
-              <Video src={Video}  controls="controls"  autoPlay="false"  />
-              {/* <Card.Img overlay src='/image/image7.jpg' alt='...' height={450} className='custom-card3' /> */}
-                
+              <Video src={Video}  controls="controls"  autoPlay="true"  />
+              
               </Col>
             </Row>
           </Card>

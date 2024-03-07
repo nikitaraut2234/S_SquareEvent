@@ -6,7 +6,7 @@ class Video extends Component {
   render() {
     return (
       <div>
-        <video src={video1} height={500} width={230} className='video' />
+        <video src={video1} height={500} width={230} className='video justify-content-center' />
       </div>
     );
   }
