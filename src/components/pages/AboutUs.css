@@ -3,7 +3,10 @@
 }
 .aboutus{
     background-image: url(/src/image/wedding.jpg);
-    height:150vh;
+    height:100vh;
+}
+.img_margin{
+  margin-top: 10rem;
 }
  
   .title {

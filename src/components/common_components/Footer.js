@@ -66,10 +66,7 @@ function Footer() {
 
                     </Col>
 
-                    {/* <Col md='2' lg='2' xl='2' className='mx-auto  '>
-                        <h6 className='  fw-bold  '> </h6>
-
-                    </Col> */}
+                     
 
                     <Col md='2' lg='2' xl='2' className='mx-auto'>
                         <h6 className='fw-bold'>Privacy Policy</h6>

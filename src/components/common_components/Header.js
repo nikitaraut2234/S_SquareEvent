@@ -41,15 +41,15 @@ const Header = () => {
                     <Nav.Link className='text-dark'>Home</Nav.Link>
                   </LinkContainer>
                   &nbsp;&nbsp; &nbsp;&nbsp;  
-                  <LinkContainer to="/AboutUs">
+                  <LinkContainer to="/AboutUs"  className='active'>
                     <Nav.Link className='text-dark'>AboutUs</Nav.Link>
                   </LinkContainer>
                   &nbsp;&nbsp; &nbsp;&nbsp;    
-                  <LinkContainer to="/Services">
+                  <LinkContainer to="/Services"  className='active'>
                     <Nav.Link className='text-dark'>Services</Nav.Link>
                   </LinkContainer>
                   &nbsp;&nbsp;  &nbsp;&nbsp;  
-                  <LinkContainer to="/careers">
+                  <LinkContainer to="/careers"  className='active'>
                     <Nav.Link className='text-dark'>Careers</Nav.Link>
                   </LinkContainer>
                 </Nav>

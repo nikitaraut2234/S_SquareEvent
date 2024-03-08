@@ -6,11 +6,13 @@ header {
     background-position: center;
     color: #fff; /* Set text color to white or adjust as needed */
   }
-  .active{
-    color: black;
+  .active {
+    color: red; /* Your desired styles for the active NavLink */
+    
   }
-  .active:hover {
-    color: red;
+  .active:hover{
+    color: red; /* Your desired styles for the active NavLink */
+    font-weight: bold;
   }
   .float-end{
     margin-left:50%;
