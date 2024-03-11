@@ -35,3 +35,21 @@
       display: block;
     }
   }
+.col1{
+  
+   
+  border: 1px solid black;
+}
+.card_custom{
+  box-shadow: none !important;
+}
+.text-bold{
+  font-weight: bolder;
+}
+.span{
+  display: inline;
+  direction: none;
+}
+.card{
+  box-shadow: none !important;
+}

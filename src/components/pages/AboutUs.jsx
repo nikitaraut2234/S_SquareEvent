@@ -1,6 +1,12 @@
 import React from 'react'
 import { Container,  Row, Col, Card } from 'react-bootstrap';
-import { FaBars } from 'react-icons/fa';
+ 
+import { TfiEmail } from "react-icons/tfi";
+import { CiGlobe } from "react-icons/ci";
+import { FaCalendarAlt } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { AiFillTwitterCircle } from "react-icons/ai";
 import Header from '../common_components/Header';
 import './AboutUs.css';
 
@@ -24,54 +30,81 @@ export default function AboutUs() {
             </Container>
 
             <Container>
+            <Card className='card_custom mt-5'>
                 <Row>
-                   <Card>
-                   <Col md={2} lg={3} xl={4} className='border'>
+                     <Col md={4} lg={4} xl={4} >
                     {/* <FaBars className='text-center' /> */}
+                    <h1 className='text-center'><TfiEmail  color='red' /></h1>
+                    <br></br>
+                    <b><h4 className='text-center'>Collaborate With Us</h4></b>
+                     <p className='text-center'> Sodales provident</p>
                     </Col>
-                    <Col md={2} lg={3} xl={4}  className='border'> </Col>
-                    <Col md={2} lg={3} xl={4}  className='border'> </Col>
-                   </Card>
+                    <Col md={4} lg={4} xl={4}   >
+                    <h1 className='text-center'><CiGlobe color='red' /></h1>
+                    <br></br>
+                     <b><h4 className='text-center'>Select Destination</h4></b>
+                     <p className='text-center'> Sodales provident</p>
+                     </Col>
+                    <Col md={4} lg={4} xl={4} > 
+                    <h1 className='text-center'><FaCalendarAlt color='red' /></h1>
+                    <br></br>
+                    <b><h4 className='text-center'>Start Planning</h4></b>
+                     <p className='text-center'> Sodales provident</p>
+                     
+                    </Col>
+                    
                 </Row>
+                </Card>
+            </Container>
+            <Container>
+                <h5 className='text-bold'>Meet Our</h5>
+                <h1 className='text-bold'>PLANNERS</h1>
+                <p className='text-left'>Doloribus, eiusmod amet nostrud dolore, dicta tincidunt malesuada euismod urna.<br /> Placeat veniam ipsam velit, venenatis. Iste! Gravida modi expedita<br /> rerum officiis aut placeat.  Placeat veniam ipsam velit, venenatis. <br />Iste! Gravida modi expedita.</p>
             </Container>
             <h2 className='text-center'>Our Team</h2>
             <Container>
                 <Row>
                     <Col md={4}> 
-                    <div className="card">
-                        <img src="images/image3.jpg" alt="Jane" className='image_width' />
-                        <div className="container">
-                            <h2>Jane Doe</h2>
-                            <p className="title">CEO & Founder</p>
-                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                            <p>jane@example.com</p>
-                            <p><button className="button">Contact</button></p>
-                        </div>
-                    </div>
+                    <Card className="card">
+                        <Card.Img src="image/team-1.jpg" alt="Jane" className='image_width' />
+                        <h2 className='text-center'>Jane Doe</h2>
+                            <p className="title text-center">CEO & Founder</p>
+                        <div className='span text-center'>
+                                  
+                         <i className='display-6'><a href='https://www.facebook.com/'> <FaFacebook color='red' /> </a></i>
+                         <i className='display-6'><a href='https://www.instagram.com/s__square__events/'> <FaInstagram  color='red'/></a></i >
+                         <i className='display-6'><a href='https://twitter.com/?lang=en-in'> <AiFillTwitterCircle color='red' /> </a></i>
+                         </div>
+                        
+                    </Card>
                     </Col>
                     <Col md={4}>
-                    <div className="card">
-                        <img src="images/image3.jpg" alt="Jane" className='image_width' />
-                        <div className="container">
-                            <h2>Jane Doe</h2>
-                            <p className="title">CEO & Founder</p>
-                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                            <p>jane@example.com</p>
-                            <p><button className="button">Contact</button></p>
-                        </div>
-                    </div>
+                    <Card className="card">
+                        <Card.Img src="image/team-1.jpg" alt="Jane" className='image_width' />
+                        <h2 className='text-center'>Jane Doe</h2>
+                            <p className="title text-center">CEO & Founder</p>
+                        <div className='span text-center'>
+                                  
+                         <i className='display-6'><a href='https://www.facebook.com/'> <FaFacebook color='red' /> </a></i>
+                         <i className='display-6'><a href='https://www.instagram.com/s__square__events/'> <FaInstagram  color='red'/></a></i >
+                         <i className='display-6'><a href='https://twitter.com/?lang=en-in'> <AiFillTwitterCircle color='red' /> </a></i>
+                         </div>
+                        
+                    </Card>
                     </Col>
                     <Col md={4}>
-                    <div className="card">
-                        <img src="images/image3.jpg" alt="Jane" className='image_width' />
-                        <div className="container">
-                            <h2>Jane Doe</h2>
-                            <p className="title">CEO & Founder</p>
-                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                            <p>jane@example.com</p>
-                            <p><button className="button">Contact</button></p>
-                        </div>
-                    </div>
+                    <Card className="card">
+                        <Card.Img src="image/team-1.jpg" alt="Jane" className='image_width' />
+                        <h2 className='text-center'>Jane Doe</h2>
+                            <p className="title text-center">CEO & Founder</p>
+                        <div className='span text-center'>
+                                  
+                         <i className='display-6'><a href='https://www.facebook.com/'> <FaFacebook color='red' /> </a></i>
+                         <i className='display-6'><a href='https://www.instagram.com/s__square__events/'> <FaInstagram  color='red'/></a></i >
+                         <i className='display-6'><a href='https://twitter.com/?lang=en-in'> <AiFillTwitterCircle color='red' /> </a></i>
+                         </div>
+                        
+                    </Card>
                     </Col>
                 </Row>
             </Container>
