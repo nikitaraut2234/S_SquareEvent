@@ -8,6 +8,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import Header from '../common_components/Header';
+ 
 import './AboutUs.css';
 
 export default function AboutUs() {
@@ -61,19 +62,19 @@ export default function AboutUs() {
                 <h1 className='text-bold'>PLANNERS</h1>
                 <p className='text-left'>Doloribus, eiusmod amet nostrud dolore, dicta tincidunt malesuada euismod urna.<br /> Placeat veniam ipsam velit, venenatis. Iste! Gravida modi expedita<br /> rerum officiis aut placeat.  Placeat veniam ipsam velit, venenatis. <br />Iste! Gravida modi expedita.</p>
             </Container>
-            <h2 className='text-center'>Our Team</h2>
+           
             <Container>
                 <Row>
                     <Col md={4}> 
                     <Card className="card">
                         <Card.Img src="image/team-1.jpg" alt="Jane" className='image_width' />
                         <h2 className='text-center'>Jane Doe</h2>
-                            <p className="title text-center">CEO & Founder</p>
+                            <p className="title text-center">Planner & Coordinator</p>
                         <div className='span text-center'>
                                   
-                         <i className='display-6'><a href='https://www.facebook.com/'> <FaFacebook color='red' /> </a></i>
-                         <i className='display-6'><a href='https://www.instagram.com/s__square__events/'> <FaInstagram  color='red'/></a></i >
-                         <i className='display-6'><a href='https://twitter.com/?lang=en-in'> <AiFillTwitterCircle color='red' /> </a></i>
+                         <i><a href='https://www.facebook.com/'> <FaFacebook color='#ff4362' className='icon_height' /> </a></i>
+                         <i><a href='https://www.instagram.com/s__square__events/'> <FaInstagram  color='#ff4362' className='icon_height'/></a></i >
+                         <i><a href='https://twitter.com/?lang=en-in'> <AiFillTwitterCircle color='#ff4362' className='icon_height' /> </a></i>
                          </div>
                         
                     </Card>
@@ -82,12 +83,12 @@ export default function AboutUs() {
                     <Card className="card">
                         <Card.Img src="image/team-1.jpg" alt="Jane" className='image_width' />
                         <h2 className='text-center'>Jane Doe</h2>
-                            <p className="title text-center">CEO & Founder</p>
+                            <p className="title text-center">Planner & Coordinator</p>
                         <div className='span text-center'>
                                   
-                         <i className='display-6'><a href='https://www.facebook.com/'> <FaFacebook color='red' /> </a></i>
-                         <i className='display-6'><a href='https://www.instagram.com/s__square__events/'> <FaInstagram  color='red'/></a></i >
-                         <i className='display-6'><a href='https://twitter.com/?lang=en-in'> <AiFillTwitterCircle color='red' /> </a></i>
+                         <i><a href='https://www.facebook.com/'> <FaFacebook color='#ff4362' className='icon_height' /> </a></i>
+                         <i><a href='https://www.instagram.com/s__square__events/'> <FaInstagram  color='#ff4362' className='icon_height'/></a></i >
+                         <i><a href='https://twitter.com/?lang=en-in'> <AiFillTwitterCircle color='#ff4362' className='icon_height' /> </a></i>
                          </div>
                         
                     </Card>
@@ -96,19 +97,31 @@ export default function AboutUs() {
                     <Card className="card">
                         <Card.Img src="image/team-1.jpg" alt="Jane" className='image_width' />
                         <h2 className='text-center'>Jane Doe</h2>
-                            <p className="title text-center">CEO & Founder</p>
+                            <p className="title text-center">Planner & Coordinator</p>
                         <div className='span text-center'>
                                   
-                         <i className='display-6'><a href='https://www.facebook.com/'> <FaFacebook color='red' /> </a></i>
-                         <i className='display-6'><a href='https://www.instagram.com/s__square__events/'> <FaInstagram  color='red'/></a></i >
-                         <i className='display-6'><a href='https://twitter.com/?lang=en-in'> <AiFillTwitterCircle color='red' /> </a></i>
+                         <i><a href='https://www.facebook.com/'> <FaFacebook color='#ff4362' className='icon_height' /> </a></i>
+                         <i><a href='https://www.instagram.com/s__square__events/'> <FaInstagram  color='#ff4362' className='icon_height'/></a></i >
+                         <i><a href='https://twitter.com/?lang=en-in'> <AiFillTwitterCircle color='#ff4362' className='icon_height' /> </a></i>
                          </div>
                         
                     </Card>
                     </Col>
                 </Row>
             </Container>
-        </>
+            <Container fluid>
+             <Row>
+                    <Col md={6} lg={6}  className='grand'>
+                        <div className='grand_content text-center' >
+                            <img src='image/fancy-border-img.png' className='m-auto'/>
+                                  
+                        </div>
+                    </Col>
+                    <Col md={6} lg={6}></Col>
+                </Row>
+            </Container>
+                
+            </>
     )
 }
  
