@@ -3,9 +3,10 @@
     height:20rem;
 }
 .aboutus{
-    background-image: url(/src/image/wedding.jpg);
+    background-image: url(/src/image/img1.jpg);
     height:100vh;
 }
+
 .img_margin{
   margin-top: 10rem;
 }
@@ -59,10 +60,47 @@
   width:12%;
 }
 .grand{
-  height: 70vh;
-  background-color:#ff4362;
+  height:60vh;
+  background-color:rgb(250, 3, 107);
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .grand_content{
-  justify-content: center;
-  margin-top: 30%;
+ 
+  margin-top: 20%;
+   
+}
+.social_width{
+   height:30px;
+   width: 30px;
+   margin: 2%;
+  
+}
+ 
+@media (min-width:480px){
+  .grand{
+    
+    height:100vh;
+    background-color:rgb(250, 3, 107);
+  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+  }
+  .grand_content{
+ 
+    margin-top: 30%;
+     
+  }
+  .input_style{
+    height: 60px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: none !important;
+  }
+}
+.input_style{
+  height: 60px;
+   
+  border: 1px solid black;
+  border-radius: none !important;
 }

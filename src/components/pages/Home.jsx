@@ -7,7 +7,7 @@ import { Container, Row, Col, Form, Button } from 'react-bootstrap';
  
 import { Card } from 'react-bootstrap';
 import Header from '../common_components/Header';
-
+//  import { FaSquareWhatsapp } from "react-icons/fa6";
 export default function Home() {const navigate = useNavigate ();
 
   const [selectedContent, setSelectedContent] = useState('1');
@@ -202,11 +202,11 @@ export default function Home() {const navigate = useNavigate ();
                   </Form.Group>
                   <br />
                   <Form.Group controlId="checkboxForm">
+                   
                     <Form.Check
                       type="checkbox"
                       label="Send me update on Whatsapp"
-
-                    />
+                    />  
                   </Form.Group><br />
                   <Button variant="denger" className='btn btn-block btn-danger' type="submit">
                     Get Instant Quote
