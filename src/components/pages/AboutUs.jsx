@@ -28,7 +28,7 @@ export default function AboutUs() {
             <Container className='mt-5'>
                 <h5 className='text-center'>Looking for Perfection?</h5>
                 <h1 className='text-center'>WE ARE HERE TO<br /> HELP YOU!</h1>
-                <p className='text-center'>Dui quam molestie sem do accusamus, mollitia ullamco asperiores conubia,<br /> suscipit incidunt, lorem lectus. Tellus molestias dui tristique blandit expedita<br /> lorem! Dolorum congue hac, quisque. Tellus molestias dui tristiqu.</p>
+                <p className='text-center'>Every social and business events are planned ,executed through s__square __events.<br /> But people are often fascinated to know more about how we work for managing weddings. Hence we came forward to answer these questions. <br /> How do we work? and What are our services? Following are the most basic services we provide.</p>
             </Container>
 
             <Container>
@@ -61,7 +61,7 @@ export default function AboutUs() {
             <Container>
                 <h5 className='text-bold'>Meet Our</h5>
                 <h1 className='text-bold'>PLANNERS</h1>
-                <p className='text-left'>Doloribus, eiusmod amet nostrud dolore, dicta tincidunt malesuada euismod urna.<br /> Placeat veniam ipsam velit, venenatis. Iste! Gravida modi expedita<br /> rerum officiis aut placeat.  Placeat veniam ipsam velit, venenatis. <br />Iste! Gravida modi expedita.</p>
+                <p className='text-left'>"Creating unforgettable moments, one wedding at a time. Let us be your guide to a happily ever after."</p>
             </Container>
 
             <Container>
@@ -123,7 +123,7 @@ export default function AboutUs() {
                                 <br />
                                 <h6 className='text-white text-center'>We Plan Wedding’s That Are</h6>
                                 <b> <h1 className='text-white text-center'>GRAND</h1></b>
-                                <p className='text-center text-white'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                                <p className='text-center text-white'>"We plan weddings that are as unique as your love story, as breathtaking as your dreams, and as unforgettable as your journey together."</p>
                                 <br />
                                 <p className='text-center'>
                                     <span className='span text-center'>
@@ -140,9 +140,9 @@ export default function AboutUs() {
                     </Col>
                     <Col md={6} lg={6}>
                          <Row>
-                         <Col md={1}></Col>
-                         <Col md={10}>
-                         <h1 className='text-center mt-3'>SEND US A MESSAGE</h1>
+                         
+                         <Col md={11}>
+                         <h1 className='text-center mt-5'>SEND US A MESSAGE</h1>
                        
                         <p className='text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit dem.</p>
                         <Form>
@@ -162,7 +162,8 @@ export default function AboutUs() {
                                  
                                 <Form.Control type="textarea" className="input_style" placeholder="Message" required />
                             </Form.Group>
-                            <button  className='align-items-center"' varient='red'>BOOK AN APPOINMENT</button>
+                            
+                           <p className='text-center mt-3'>  <button type='button' className='btn btn-primary btn-block'>BOOK AN APPOINMENT</button></p>
                         </Form>
                          </Col>
                          <Col md={1}></Col>

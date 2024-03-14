@@ -1,6 +1,6 @@
 import React from 'react'
-import { Container  } from 'react-bootstrap';
-import { Card  } from 'react-bootstrap';
+import { Container, Dropdown } from 'react-bootstrap';
+import { Card, Form } from 'react-bootstrap';
 import Header from '../common_components/Header'
 import './Careers.css';
 
@@ -28,65 +28,66 @@ export default function Careers() {
                 >
                   🔍
                 </button>
-                 
+
               </div>
+
+
+
+            </div>
+
+            <div>
                
             </div>
-            
-                <div>
-                <li>Department</li>
-                <li>Location</li>
-                </div>
           </Card>
           <br></br>
-         
+
           <div>
             <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finance</h2>
             <br></br>
             <Card className='card-no-shadow border'>
               <h5>Buisness Analyst</h5>
             </Card>
-           </div>
-           <br></br>
-         
+          </div>
+          <br></br>
+
           <div>
-           
+
             <Card className='card-no-shadow border'>
               <h5>Buisness Analyst</h5>
             </Card>
-           </div>
-           <br></br>
-         
+          </div>
+          <br></br>
+
           <div>
-            
+
             <Card className='card-no-shadow border'>
               <h5>Buisness Analyst</h5>
             </Card>
-           </div>
-           <br></br>
-         
+          </div>
+          <br></br>
+
           <div>
-             
+
             <Card className='card-no-shadow border'>
               <h5>Buisness Analyst</h5>
             </Card>
-           </div>
-           <div>
-            
+          </div>
+          <div>
+
             <Card className='card-no-shadow border'>
               <h5>Buisness Analyst</h5>
             </Card>
-           </div>
-           <br></br>
-         
-           <div>
-            
+          </div>
+          <br></br>
+
+          <div>
+
             <Card className='card-no-shadow border'>
               <h5>Buisness Analyst</h5>
             </Card>
-           </div>
-           <br></br>
-         
+          </div>
+          <br></br>
+
         </Container>
       </div>
     </div>
