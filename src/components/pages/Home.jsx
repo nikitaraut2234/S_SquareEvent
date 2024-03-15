@@ -289,23 +289,23 @@ export default function Home() {const navigate = useNavigate ();
           <h5 className='text-center text-muted'>We offer over 10,000 professionally hand-picked wedding designs.</h5>
           <Row>
             <Card className="custom-card">
-              <Card.Img overlay src='/image/image5.jpg' alt='...' height={500} />
+              <Card.Img overlay src='/image/image5.jpg' alt='...' className='card_height'  />
             </Card>
           </Row>
         </Container>
       </div>
+     
       <div>
         <Container className='  mt-2'>
 
-          <Card className="custom-card card3">
+          <Card className="custom-card5 card3">
             <Row>
               <Col md={7} className='custom-card2'>
                 <p className='online_text'>Online Package</p>
-                <br></br>
+                 
                 <h1 className='font'>Get an online package</h1>
-                <br />
-                <br />
-                <h1>customized to your design preferences and budget.</h1>
+               
+                <h1 className='h1_font'>customized to your design preferences and budget.</h1>
               </Col>
               <Col md={5}>
               <Video src={Video}  controls="controls"  autoPlay="true"  />

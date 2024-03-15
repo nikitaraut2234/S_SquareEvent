@@ -5,8 +5,8 @@ import './Video.css'
 class Video extends Component {
   render() {
     return (
-      <div>
-        <video src={video1} height={500} width={230} className='video justify-content-center' />
+      <div className="text-center">
+        <video src={video1}    className='video' />
       </div>
     );
   }

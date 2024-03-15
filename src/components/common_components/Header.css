@@ -58,6 +58,7 @@ header {
 .custom-card{
   box-shadow: none !important;
   border: 0.2px solid white;
+   
   
 }
 .image{
@@ -75,7 +76,7 @@ header {
   /* additional styles if needed */
 }
 .custom-card2{
-   padding:2%;
+   padding:1%;
    border-radius: 10px;
 }
 .custom-card3{
@@ -90,6 +91,12 @@ header {
 }
 .custom-color2{
   background-color:hsl(36, 59%, 87%);
+}
+.custom-card5{
+  box-shadow: none !important;
+  border: 0.2px solid white;
+  height: 440px; 
+  
 }
 a{
   text-decoration: none;
@@ -131,11 +138,48 @@ span{
   font-family:cursive;
   font-weight: bolder;
   color: blueviolet;
-  font-size:45px;
+  font-size:20px;
+}
+.h1_font{
+  font-size:20px;
 }
 .online_text{
-  font-size:2rem;
+  font-size:1rem;
 }
 @media (min-width:480px){
-  
+  .card{
+    margin-top: 30px;
+    padding:20px;
+    margin:auto;
+    width:80%;
+    border: 1px solid white;
+    box-shadow: 10px 10px 5px 10px rgba(6, 6, 6, 0.2);
+  }
+  .card_height{
+    height: 500px;
+  }
+  .custom-card5{
+    box-shadow: none !important;
+    border: 0.2px solid white;
+    height: 540px;
+    
+  }
+  .custom-card2{
+    padding:2%;
+    
+    border-radius: 10px;
+ }
+ .online_text{
+  font-size:2rem;
+}
+.font{
+  font-family:cursive;
+  font-weight: bolder;
+  color: blueviolet;
+  font-size:45px;
+}
+.h1_font{
+  margin-top:50px;
+  font-size:47px;
+}
 }
