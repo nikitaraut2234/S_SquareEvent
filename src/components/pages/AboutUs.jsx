@@ -158,12 +158,12 @@ export default function AboutUs() {
                                 
                                 <Form.Control type="text" className="input_style" placeholder="Subject"  required/>
                             </Form.Group>
-                            <Form.Group className='mt-3'   controlId="formGroupPassword">
+                            <Form.Group className='mt-3'   controlId="formGroupmMessage">
                                  
                                 <Form.Control type="textarea" className="input_style" placeholder="Message" required />
                             </Form.Group>
                             
-                           <p className='text-center mt-3'>  <button type='button' className='btn btn-primary btn-block'>BOOK AN APPOINMENT</button></p>
+                           <p className='text-center mt-3'>  <button type='button' className='btn btn-info btn-block'>BOOK AN APPOINMENT</button></p>
                         </Form>
                          </Col>
                          <Col md={1}></Col>

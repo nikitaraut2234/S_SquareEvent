@@ -13,6 +13,9 @@ header {
   .float-end{
     margin-left:50%;
   }
+  .card_height{
+     height: 250px;
+  }
   @media only screen and (min-width: 360px) {
     header { 
        background-image: url('image/img1.jpg'); 
@@ -72,16 +75,38 @@ header {
 }
 .card-no-shadow{
   box-shadow: none;
+   
   
   /* additional styles if needed */
+}
+.card_no_shadow{
+  display: flexbox;
+  box-shadow: none;
+   height:320px;
+   background-color: #f9e3e6;
+   padding: 10px;
+}
+ 
+.custom_card_4{
+  
+  height: 150px;
+
+}
+.img_height1{
+  height: 150px;
+
+}
+.img_height2{
+  height: 150px;
+
 }
 .custom-card2{
    padding:1%;
    border-radius: 10px;
 }
 .custom-card3{
- padding: 1%; 
-  border-radius:2rem;
+ padding: 7%; 
+  border-radius:10%;
 }
 /* .custom-card3:hover{
   padding: 0.1rem;
@@ -125,15 +150,15 @@ span{
   color: black;
 }
 .custom-card4{
-    padding: 1%;
+  padding: 1%;
   border-radius:0.5rem;
   display: flex ;
    
 }
  
-.card_image{
-  padding: 4%;
-}
+.col_gap{
+  margin-top: 20px;
+} 
 .font{
   font-family:cursive;
   font-weight: bolder;
@@ -146,6 +171,14 @@ span{
 .online_text{
   font-size:1rem;
 }
+.text_bold{
+  font-weight:bolder;
+  color: #7a5e5e;
+}
+.card_image{
+  padding: 4%;
+  height: 200px;
+}
 @media (min-width:480px){
   .card{
     margin-top: 30px;
@@ -157,6 +190,11 @@ span{
   }
   .card_height{
     height: 500px;
+    
+  }
+  .card_image{
+    height:400px;
+    
   }
   .custom-card5{
     box-shadow: none !important;
@@ -181,5 +219,26 @@ span{
 .h1_font{
   margin-top:50px;
   font-size:47px;
+}
+.custom-card3{
+  padding: 1%; 
+   border-radius:2rem;
+ }
+ .card_image{
+  padding: 4%;
+  height: 600px;
+}
+.custom_card_4{
+  
+  height: 400px;
+
+}
+.img_height1{
+  height: 300px;
+
+}
+.img_height2{
+  height: 250px;
+
 }
 }
