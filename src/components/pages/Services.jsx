@@ -17,7 +17,7 @@ export default function Services(){
             <img
               src="./image/logo.png"
               alt="S_Square"
-              style={{ height: '100px', width: '200px' }}
+               className='img_height2'
             />
             <p className='display-5'>Wedding Services</p>
             <p>Modern. Convenient. Affordable</p>

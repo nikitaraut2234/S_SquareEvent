@@ -3,7 +3,10 @@
     width:80%;
     padding:15px;
   } 
-   
+  .img_height2{
+      height: 100px;
+      width: 200px ;
+  }
   .form-control{
     border-radius:10px;
     margin: 5px;
@@ -32,4 +35,9 @@
 .card_custom:hover {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
- 
+@media (min-width:480px){
+  .img_height2{
+      height: 100px;
+      width: 200px ;
+  }
+}

@@ -4,11 +4,12 @@
 }
 .aboutus{
     background-image: url(/src/image/img1.jpg);
-    height:100vh;
+    filter: contrast(200%);
+    height:130vh;
 }
 
 .img_margin{
-  margin-top: 10rem;
+  margin-top: 15rem;
 }
  
   .title {
