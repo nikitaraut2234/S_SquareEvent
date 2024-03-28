@@ -66,7 +66,7 @@ export default function Home() {const navigate = useNavigate ();
                 </Row>
                  
                 <Row>
-                  <Col md={12}><Card.Img overlay={Col} src='/image/271554524_1013397569241822_7312277512912512289_n.jpg' alt='...'   className='img_height2 custom-card4' /> </Col>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/271554524_1013397569241822_7312277512912512289_n.jpg' alt='...'    className='img_height_2 custom-card4' /> </Col>
                 </Row>
               </Col>
             </Row>
@@ -96,7 +96,7 @@ export default function Home() {const navigate = useNavigate ();
                 </Row>
                
                 <Row>
-                  <Col md={12}><Card.Img overlay={Col} src='/image/271610438_1070165930226510_7721468059368109211_n.jpg' alt='...'   className='img_height2 custom-card4' /> </Col>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/271610438_1070165930226510_7721468059368109211_n.jpg' alt='...'   className='img_height_2 custom-card4' /> </Col>
                 </Row>
               </Col>
             </Row>
@@ -126,7 +126,7 @@ export default function Home() {const navigate = useNavigate ();
                 </Row>
                
                 <Row>
-                  <Col md={12}><Card.Img overlay={Col} src='/image/271491370_141520791600778_5945632228028406481_n.jpg' alt='...'   className='img_height2 custom-card4' /> </Col>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/271491370_141520791600778_5945632228028406481_n.jpg' alt='...'   className='img_height_2 custom-card4' /> </Col>
                 </Row>
               </Col>
             </Row>
@@ -156,7 +156,7 @@ export default function Home() {const navigate = useNavigate ();
                 </Row>
                 
                 <Row>
-                  <Col md={12}><Card.Img overlay={Col} src='/image/Puneetha 4.webp' alt='...'   className='img_height2 custom-card4' /> </Col>
+                  <Col md={12}><Card.Img overlay={Col} src='/image/Puneetha 4.webp' alt='...'   className='img_height_2 custom-card4' /> </Col>
                 </Row>
               </Col>
             </Row>
