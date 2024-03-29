@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
+import  Gallery from './components/common_components/Gallery'
 // Import your components
 //import Header from './components/common_components/Header';
 import Footer from './components/common_components/Footer';
@@ -14,16 +14,17 @@ import AboutUs from './components/pages/AboutUs';
 function App() {
   return (
     <div className="App scroll-container">
+      {/* <Gallery />  */}
       {/* <Header /> */}
       {/* <Services /> */}
        {/* <VideoApp /> */}
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/services" element={<Services />} />
-          <Route path='/AboutUs' element={<AboutUs />} />
-          <Route path="/careers" element={<Careers />} />
-          
-        </Routes>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/services" element={<Services />} />
+            <Route path='/AboutUs' element={<AboutUs />} />
+            <Route path="/careers" element={<Careers />} />
+            
+          </Routes>
          
 
       <Footer />
