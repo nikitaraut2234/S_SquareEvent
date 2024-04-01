@@ -18,3 +18,25 @@ cursor: pointer;
 .gallarywrap .single img:hover{
    transform: scale(1.02);
 }
+.sliderwrap{ 
+
+}
+.sliderwrap,.btnclose,.btnnext,.btnprev{
+    
+}
+.fullscreenImage{
+ 
+}
+.sliderwrap .btnclose{
+    color: black;
+}
+.sliderwrap .btnprev{
+    color: black;
+}
+.sliderwrap .btnnext{
+    color: black;
+}
+.img_hei{
+    height: 100px;
+    width: 500px;
+}
