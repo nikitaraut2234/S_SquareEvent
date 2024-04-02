@@ -29,7 +29,7 @@ import{
             {
                 openModel && 
                 <div className='sliderwrap'> 
-                  <FontAwesomeIcon icon={ faCircleXmark }   className='btnclose' onClick={handalCloseModel}/>
+                  <FontAwesomeIcon icon={ faCircleXmark }    className='btnclose' onClick={handalCloseModel}/>
                   <FontAwesomeIcon icon={ faCircleChevronLeft } className='btnprev' onClick={prevSlide}/>
                   <FontAwesomeIcon icon={ faCircleChevronRight }  className='btnnext' onClick={nextSlide}/>
                 <div className='fullscreenImage'>
@@ -45,7 +45,7 @@ import{
                         return(
                             <div className='single'  key={index}
                             onClick={()=>handalOpenModel(index)}>
-                              <img  className='img_hei'src={slide.img} alt='' />
+                              <img  src={slide.img} alt='' />
                             </div>
                         )
                     })
