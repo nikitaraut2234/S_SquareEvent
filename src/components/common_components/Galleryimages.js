@@ -17,10 +17,10 @@ import{
           setOpenModel(false)
     }
     const prevSlide = ()=>{
-             slideNumber == 0 ? setSlideNumber( galleryImages.length-1): setSlideNumber(slideNumber-1)
+             slideNumber === 0 ? setSlideNumber( galleryImages.length-1): setSlideNumber(slideNumber-1)
     }
     const nextSlide = ()=>{
-        slideNumber == 0 ? setSlideNumber( galleryImages.length-1): setSlideNumber(slideNumber-1)    
+        slideNumber === 0 ? setSlideNumber( galleryImages.length-1): setSlideNumber(slideNumber-1)    
     }
     return(
         <div className='mt-5'>
@@ -29,7 +29,7 @@ import{
             {
                 openModel && 
                 <div className='sliderwrap'> 
-                  <FontAwesomeIcon icon={ faCircleXmark }    className='btnclose' onClick={handalCloseModel}/>
+                  <FontAwesomeIcon icon={ faCircleXmark }   className='btnclose' onClick={handalCloseModel}/>
                   <FontAwesomeIcon icon={ faCircleChevronLeft } className='btnprev' onClick={prevSlide}/>
                   <FontAwesomeIcon icon={ faCircleChevronRight }  className='btnnext' onClick={nextSlide}/>
                 <div className='fullscreenImage'>

@@ -1,36 +1,71 @@
 import React from 'react';
 import Galleryimages from './Galleryimages'
-import { Container, Carousel, Row, Col, Image } from 'react-bootstrap';
+import { Container, Carousel } from 'react-bootstrap';
 import './Gallery.css';
 export default function Gallery() {
-        const galleryImages=[
-            {
-                img:'/image/271491370_141520791600778_5945632228028406481_n.jpg'
-            },
-            {
-                img:'/image/322916973_1335494907284101_6554862916736957411_n.webp'
-            },
-            {
-                img:'/image/271491370_141520791600778_5945632228028406481_n.jpg'
-            },
-            {
-                img:'/image/322916973_1335494907284101_6554862916736957411_n.webp'
-            },
-            {
-                img:'/image/271491370_141520791600778_5945632228028406481_n.jpg'
-            },
-            {
-                img:'/image/322916973_1335494907284101_6554862916736957411_n.webp'
-            }
-        ]
+    const galleryImages = [
+        {
+            img: '/image/image7.jpg'
+        },
+        {
+            img: '/image/Trishala.webp'
+        },
+        {
+            img: '/image/Trishala.webp'
+        },
+        {
+            img: '/image/Trishala.webp'
+        },
+        {
+            img: '/image/Trishala.webp'
+        },
+        {
+            img: '/image/final render.webp'
+        },
+        {
+            img: '/image/image7.jpg'
+        },
+        {
+            img: '/image/image7.jpg'
+        },
+        {
+            img: '/image/Trishala.webp'
+        },
+        {
+            img: '/image/Trishala.webp'
+        },
+        {
+            img: '/image/Trishala.webp'
+        },
+        {
+            img: '/image/image7.jpg'
+        }
+    ]
     return (
         <div className='main'>
 
             <Container fluid>
-                <Galleryimages
-                 galleryImages={galleryImages}
-                /> 
-            
+                <Carousel>
+                    <Carousel.Item>
+                        <Galleryimages
+                            galleryImages={galleryImages}
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Galleryimages
+                            galleryImages={galleryImages}
+                        />
+                    </Carousel.Item>
+                    
+                    <Carousel.Item>
+                        <Galleryimages
+                            galleryImages={galleryImages}
+                        />
+                    </Carousel.Item>
+                </Carousel>
+
+
+
             </Container>
         </div>
 
