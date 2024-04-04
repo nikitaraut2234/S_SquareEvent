@@ -41,11 +41,15 @@ export default function Gallery() {
             img: '/image/image7.jpg'
         }
     ]
+
     return (
         <div className='main'>
 
             <Container fluid>
-                <Carousel>
+                <Galleryimages
+                    galleryImages={galleryImages}
+                />
+                {/* <Carousel>
                     <Carousel.Item>
                         <Galleryimages
                             galleryImages={galleryImages}
@@ -62,7 +66,7 @@ export default function Gallery() {
                             galleryImages={galleryImages}
                         />
                     </Carousel.Item>
-                </Carousel>
+                </Carousel> */}
 
 
 
