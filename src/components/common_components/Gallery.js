@@ -1,5 +1,6 @@
 import React from 'react';
 import Galleryimages from './Galleryimages'
+import Galleryimages2 from './Gallaryimages2';
 import { Container, Carousel } from 'react-bootstrap';
 import './Gallery.css';
 export default function Gallery() {
@@ -40,33 +41,71 @@ export default function Gallery() {
         {
             img: '/image/image7.jpg'
         }
+    ];
+    
+    const galleryImages2=[
+        {
+            img: '/image/Trishala.webp'
+        },
+        {
+            img: '/image/Trishala.webp'
+        },
+        {
+            img: '/image/Trishala.webp'
+        },
+        {
+            img: '/image/Trishala.webp'
+        },
+        {
+            img: '/image/Trishala.webp'
+        },
+        {
+            img: '/image/Trishala.webp'
+        },
+        {
+            img: '/image/Trishala.webp'
+        },
+        {
+            img: '/image/Trishala.webp'
+        },
+        {
+            img: '/image/Trishala.webp'
+        },
+        {
+            img: '/image/Trishala.webp'
+        },
+        {
+            img: '/image/Trishala.webp'
+        },
+        {
+            img: '/image/Trishala.webp'
+        }
     ]
 
     return (
         <div className='main'>
 
             <Container fluid>
-                <Galleryimages
+                {/* <Galleryimages
                     galleryImages={galleryImages}
-                />
-                {/* <Carousel>
+                /> */}
+                <Carousel>
                     <Carousel.Item>
                         <Galleryimages
                             galleryImages={galleryImages}
                         />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <Galleryimages
-                            galleryImages={galleryImages}
-                        />
+                       <Galleryimages2 galleryImages2={galleryImages2} />
+
                     </Carousel.Item>
                     
-                    <Carousel.Item>
+                    {/* <Carousel.Item>
                         <Galleryimages
                             galleryImages={galleryImages}
                         />
-                    </Carousel.Item>
-                </Carousel> */}
+                    </Carousel.Item> */}
+                </Carousel>
 
 
 
