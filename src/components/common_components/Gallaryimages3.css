@@ -1,7 +1,7 @@
 .gallarywrap{
     display: flex;
     flex-wrap: wrap;
-    gap: calc(1px + 5px);
+    gap: calc(10px + 1%);
     align-items: center;
     justify-content: center;
      
