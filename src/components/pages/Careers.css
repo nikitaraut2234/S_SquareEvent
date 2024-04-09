@@ -3,3 +3,8 @@
     overflow-y: auto;
     overflow-x: auto;
 }
+.input_style{
+    height: 50px;
+    width: 90%;
+     
+}
